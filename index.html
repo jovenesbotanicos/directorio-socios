@@ -41,19 +41,10 @@ let allRows=[], fuse;
 const esc=s=>String(s||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const drv = (u)=>{
   if(!u) return "";
-  const s = String(u).trim();
-
-  // Extrae FILE_ID de varias formas comunes
-  const m = s.match(
-    /(?:\/d\/|id=)([A-Za-z0-9_-]{10,})/
-  );
-  if(!m) return s.split('?')[0];
-
+  const m = String(u).match(/(?:id=|\/d\/)([A-Za-z0-9_-]{10,})/);
+  if(!m) return u;
   const id = m[1];
-
-  // Usa thumbnail (sirve como imagen directa y evita prompts de descarga)
-  // sz= w<px> o s<px> según necesites
-  return `https://drive.google.com/thumbnail?id=${id}&sz=w1200`;
+  return `https://lh3.googleusercontent.com/d/${id}=s1200`;
 };
 const shuffle=a=>{for(let i=a.length-1;i>0;i--){const j=Math.random()* (i+1) | 0; [a[i],a[j]]=[a[j],a[i]];} return a;};
 
@@ -63,8 +54,7 @@ function render(list){
       ${r.foto?`<img src="${esc(drv(r.foto))}"
      alt=""
      loading="lazy"
-     referrerpolicy="no-referrer"
-     onerror="this.style.display='none'">
+     referrerpolicy="no-referrer">
       <div class="name">${esc(r.nombre||'')}</div>
       ${r.formacion?`<div class="meta">${esc(r.formacion)}</div>`:''}
       ${r.afiliacion?`<div class="meta">${esc(r.afiliacion)}</div>`:''}
