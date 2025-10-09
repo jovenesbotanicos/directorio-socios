@@ -60,7 +60,7 @@ function render(list){
       ${r.afiliacion?`<div class="meta">${esc(r.afiliacion)}</div>`:''}
       ${r.intereses?`<div class="meta"><span class="badge">Intereses</span> ${esc(r.intereses)}</div>`:''}
       ${r.enlace?`<a class="btn" href="${esc(r.enlace)}" target="_blank" rel="noopener">Más información</a>`:''}
-    </div>`).join('');
+    </div>`.join('');
 }
 
 function handleData(arr){
