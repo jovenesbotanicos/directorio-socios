@@ -31,9 +31,8 @@ body{font-family:Montserrat,system-ui,Arial;background:var(--bg);color:var(--tex
 
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
 <script>
-const API = "https://script.google.com/macros/s/AKfycbxOlR1O-oipJI3ZCR_o389BE8rMzGPGRliq2Nr7x54KB09mB7ikOMAGth63NEA6yNwy/exec";
-
-const GITHUB_BASE = "https://raw.githubusercontent.com/jovenesbotanicos/directorio-socios/main/fotos/"; // cambia esto
+const GITHUB_BASE = "https://raw.githubusercontent.com/jovenesbotanicos/directorio-socios/main/fotos/";
+const DATA_URL   = "https://raw.githubusercontent.com/jovenesbotanicos/directorio-socios/main/data/data.json";
 
 const elQ = document.getElementById('q');
 const elGrid = document.getElementById('grid');
@@ -68,14 +67,11 @@ function handleData(arr){
   render(shuffle([...allRows]).slice(0, DEFAULT_COUNT));
 }
 
-(function(){
-  const cb="cb_"+Math.random().toString(36).slice(2);
-  window[cb]=d=>{handleData(d);delete window[cb];};
-  const s=document.createElement('script');
-  s.src=API+"?callback="+cb+"&t="+Date.now();
-  s.onerror=()=>{elGrid.textContent="Error cargando datos.";};
-  (document.head||document.body).appendChild(s);
-})();
+// carga directa desde GitHub
+fetch(DATA_URL)
+  .then(r => r.json())
+  .then(handleData)
+  .catch(()=>{ elGrid.textContent="Error cargando datos."; });
 
 elQ.addEventListener('input', e=>{
   const v=e.target.value.trim();
