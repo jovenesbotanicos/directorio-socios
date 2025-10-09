@@ -1,1 +1,77 @@
+<!doctype html><html lang="es"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Directorio JxBE</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ffffff; --text:#111; --muted:#555; --card:#fff; --border:#e2e2e2;
+  --brand:#2469AA; /* cámbialo a tu verde corporativo */
+  --accent:#74D69F; /* cámbialo a tu turquesa */
+  --radius:14px;
+}
+*{box-sizing:border-box}
+body{font-family:Montserrat,system-ui,Arial;background:var(--bg);color:var(--text);margin:0;padding:16px}
+#q{width:100%;max-width:680px;padding:10px 12px;border:1px solid var(--border);border-radius:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin-top:16px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:14px;box-shadow:0 2px 6px rgba(0,0,0,.04)}
+.card img{width:100%;height:160px;object-fit:cover;border-radius:10px;background:#f4f4f4}
+.name{font-weight:600;margin:10px 0 6px}
+.meta{font-size:14px;color:var(--muted);line-height:1.35}
+.badge{display:inline-block;font-size:12px;color:var(--brand);background:rgba(39,162,138,.10);padding:4px 8px;border-radius:999px;margin-top:6px}
+.btn{display:inline-block;margin-top:10px;padding:8px 12px;border-radius:10px;border:1px solid var(--accent);color:#fff;background:var(--accent);text-decoration:none}
+.btn:hover{filter:brightness(0.95)}
+.header{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.brand{font-weight:600;color:var(--brand)}
+</style>
 
+<div class="header">
+  <input id="q" type="search" placeholder="Buscar por nombre, formación, afiliación, intereses">
+  <div class="brand">JxBE · Directorio</div>
+</div>
+<div id="grid" class="grid"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+<script>
+const API = "https://script.google.com/macros/s/AKfycbzC0HbP7wRN2afRC9NlIJvutaepGnb9Vv5SoJjQvK-J-THY3BvJgvFgp9_26QAocKXh/exec";  // exacta del paso 1
+
+const elQ = document.getElementById('q');
+const elGrid = document.getElementById('grid');
+const SHOW_ROWS=5, PER_ROW=5, DEFAULT_COUNT=SHOW_ROWS*PER_ROW;
+
+let allRows=[], fuse;
+const esc=s=>String(s||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+const drv=u=>{if(!u)return"";const m=String(u).match(/(?:id=|\/d\/)([A-Za-z0-9_-]{10,})/);return m?`https://drive.google.com/uc?export=view&id=${m[1]}`:u.split('?')[0];};
+const shuffle=a=>{for(let i=a.length-1;i>0;i--){const j=Math.random()* (i+1) | 0; [a[i],a[j]]=[a[j],a[i]];} return a;};
+
+function render(list){
+  elGrid.innerHTML = list.map(r=>`
+    <div class="card">
+      ${r.foto?`<img src="${esc(r.foto)}" alt="" loading="lazy" onerror="this.style.display='none'">`:``}
+      <div class="name">${esc(r.nombre||'')}</div>
+      ${r.formacion?`<div class="meta">${esc(r.formacion)}</div>`:''}
+      ${r.afiliacion?`<div class="meta">${esc(r.afiliacion)}</div>`:''}
+      ${r.intereses?`<div class="meta"><span class="badge">Intereses</span> ${esc(r.intereses)}</div>`:''}
+      ${r.enlace?`<a class="btn" href="${esc(r.enlace)}" target="_blank" rel="noopener">Más información</a>`:''}
+    </div>`).join('');
+}
+
+function handleData(arr){
+  allRows=(arr||[]).filter(r=>r && r.nombre);
+  fuse=new Fuse(allRows,{keys:["nombre","formacion","afiliacion","intereses"],threshold:0.33});
+  render(shuffle([...allRows]).slice(0, DEFAULT_COUNT));
+}
+
+// Carga JSONP
+(function(){
+  const cb="cb_"+Math.random().toString(36).slice(2);
+  window[cb]=d=>{handleData(d); delete window[cb];};
+  const s=document.createElement('script');
+  s.src=API+"?callback="+cb+"&t="+Date.now();
+  s.onerror=()=>{ elGrid.textContent="Error cargando datos."; };
+  (document.head||document.body).appendChild(s);
+})();
+
+elQ.addEventListener('input', e=>{
+  const v=e.target.value.trim();
+  render(v ? fuse.search(v).map(x=>x.item) : shuffle([...allRows]).slice(0, DEFAULT_COUNT));
+});
+</script>
