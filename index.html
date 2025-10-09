@@ -4,8 +4,8 @@
 <style>
 :root{
   --bg:#ffffff; --text:#111; --muted:#555; --card:#fff; --border:#e2e2e2;
-  --brand:#2469AA; /* cámbialo a tu verde corporativo */
-  --accent:#74D69F; /* cámbialo a tu turquesa */
+  --brand:#2469AA;
+  --accent:#74D69F;
   --radius:14px;
 }
 *{box-sizing:border-box}
@@ -31,7 +31,9 @@ body{font-family:Montserrat,system-ui,Arial;background:var(--bg);color:var(--tex
 
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
 <script>
-const API = "https://script.google.com/macros/s/AKfycbzC0HbP7wRN2afRC9NlIJvutaepGnb9Vv5SoJjQvK-J-THY3BvJgvFgp9_26QAocKXh/exec";  // exacta del paso 1
+const API = "https://script.google.com/macros/s/AKfycbxOlR1O-oipJI3ZCR_o389BE8rMzGPGRliq2Nr7x54KB09mB7ikOMAGth63NEA6yNwy/exec";
+
+const GITHUB_BASE = "https://raw.githubusercontent.com/jovenesbotanicos/directorio-socios/main/fotos/"; // cambia esto
 
 const elQ = document.getElementById('q');
 const elGrid = document.getElementById('grid');
@@ -39,28 +41,25 @@ const SHOW_ROWS=5, PER_ROW=5, DEFAULT_COUNT=SHOW_ROWS*PER_ROW;
 
 let allRows=[], fuse;
 const esc=s=>String(s||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
-const drv = (u)=>{
+const gitFoto = (u)=>{
   if(!u) return "";
   const m = String(u).match(/(?:id=|\/d\/)([A-Za-z0-9_-]{10,})/);
-  if(!m) return u;
+  if(!m) return "";
   const id = m[1];
-  return `https://lh3.googleusercontent.com/d/${id}=s1200`;
+  return `${GITHUB_BASE}${id}.jpg`;
 };
-const shuffle=a=>{for(let i=a.length-1;i>0;i--){const j=Math.random()* (i+1) | 0; [a[i],a[j]]=[a[j],a[i]];} return a;};
+const shuffle=a=>{for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]];}return a;};
 
 function render(list){
   elGrid.innerHTML = list.map(r=>`
     <div class="card">
-      ${r.foto?`<img src="${esc(drv(r.foto))}"
-     alt=""
-     loading="lazy"
-     referrerpolicy="no-referrer">
+      ${r.foto?`<img src="${esc(gitFoto(r.foto))}" alt="" loading="lazy">`:''}
       <div class="name">${esc(r.nombre||'')}</div>
       ${r.formacion?`<div class="meta">${esc(r.formacion)}</div>`:''}
       ${r.afiliacion?`<div class="meta">${esc(r.afiliacion)}</div>`:''}
       ${r.intereses?`<div class="meta"><span class="badge">Intereses</span> ${esc(r.intereses)}</div>`:''}
       ${r.enlace?`<a class="btn" href="${esc(r.enlace)}" target="_blank" rel="noopener">Más información</a>`:''}
-    </div>`.join('');
+    </div>`).join('');
 }
 
 function handleData(arr){
@@ -69,13 +68,12 @@ function handleData(arr){
   render(shuffle([...allRows]).slice(0, DEFAULT_COUNT));
 }
 
-// Carga JSONP
 (function(){
   const cb="cb_"+Math.random().toString(36).slice(2);
-  window[cb]=d=>{handleData(d); delete window[cb];};
+  window[cb]=d=>{handleData(d);delete window[cb];};
   const s=document.createElement('script');
   s.src=API+"?callback="+cb+"&t="+Date.now();
-  s.onerror=()=>{ elGrid.textContent="Error cargando datos."; };
+  s.onerror=()=>{elGrid.textContent="Error cargando datos.";};
   (document.head||document.body).appendChild(s);
 })();
 
