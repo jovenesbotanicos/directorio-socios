@@ -292,23 +292,23 @@
   {
     "nombre": "Joshua Borràs",
     "categoria": "Predoc",
-    "formacion": "Doctorando en Biología de la Plantas (UIB)",
-    "afiliacion": "Universitat de les Illes Balears",
-    "intereses": "Conservación; Cambio Global; Bioestadística; Interacciones",
+    "formacion": "Doctorado en Biología de la Plantas (UIB)",
+    "afiliacion": "Universitat de les Illes Balears ()UIB",
+    "intereses": "Conservación; Ecología reproductiva; Cambio global; Bioestadística",
     "foto": "https://drive.google.com/file/d/1lRcgyPQs9kwkx1ETlh3gy00mRE0mjwgQ/view?usp=sharing",
     "enlace": "https://linktr.ee/JoshuaBorras",
     "fotoGit": "fotos/u-d832bac9b72758cd.png",
     "intereses_list": [
       "Conservación",
-      "Cambio Global",
-      "Bioestadística",
-      "Interacciones"
+      "Ecología reproductiva",
+      "Cambio global",
+      "Bioestadística"
     ],
     "intereses_key": [
       "conservacion",
+      "ecologia reproductiva",
       "cambio global",
-      "bioestadistica",
-      "interacciones"
+      "bioestadistica"
     ]
   },
   {
