@@ -23,7 +23,7 @@
   },
   {
     "nombre": "Andrea González Dorta",
-    "categoria": "Graduado",
+    "categoria": "Graduado/a",
     "formacion": "Grado Biología ULL",
     "afiliacion": "",
     "intereses": "Etnobotánica; ecología; gestión forestal y conservación",
@@ -43,7 +43,7 @@
   },
   {
     "nombre": "Gonzalo Albino Tendero",
-    "categoria": "Profesor",
+    "categoria": "Profesor/a",
     "formacion": "",
     "afiliacion": "",
     "intereses": "Biogeografía; briología; liquenología; micología.",
@@ -233,7 +233,7 @@
   },
   {
     "nombre": "Elías Gallego Granero ",
-    "categoria": "Técnico",
+    "categoria": "Técnico/a",
     "formacion": "Técnico en Conservación y Gestión del Medio Natural",
     "afiliacion": "",
     "intereses": "Forestal; Agronómica; Etnobotanica",
