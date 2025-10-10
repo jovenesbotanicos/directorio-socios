@@ -1,49 +1,144 @@
 <!doctype html><html lang="es"><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Directorio JxBE</title>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
 :root{
   --bg:#fff;--text:#111;--muted:#555;--card:#fff;--border:#e2e2e2;
-  --brand:#2469AA;--accent:#111;--radius:12px;
-  --green:#2e7d32; /* verde institucional */
+  --brand:#2469AA;     /* Azul institucional */
+  --green:#74D69F;     /* Verde institucional */
+  --radius:12px;
 }
 *{box-sizing:border-box}
-body{font-family:Montserrat,system-ui,Arial;background:var(--bg);color:var(--text);margin:0;padding:24px}
-#q{width:100%;max-width:780px;padding:12px 14px;border:1px solid var(--border);border-radius:10px}
-.header{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:16px}
-.brand{font-weight:600;color:var(--brand)}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:28px}
-.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:24px;text-align:center}
-.avatar-wrap{width:220px;height:220px;margin:0 auto 18px;overflow:hidden;border-radius:50%;border:1px solid var(--border)}
+body{
+  font-family:'Quicksand',system-ui,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  margin:0;
+  padding:24px;
+}
+#q{
+  width:100%;
+  max-width:780px;
+  padding:12px 14px;
+  border:1px solid var(--border);
+  border-radius:10px;
+  font-family:inherit;
+}
+.header{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  flex-wrap:wrap;
+  margin-bottom:16px;
+}
+.brand{
+  font-weight:700;
+  color:var(--brand);
+  font-size:18px;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+  gap:28px;
+}
+.card{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  padding:24px;
+  text-align:center;
+  box-shadow:0 2px 4px rgba(0,0,0,.03);
+}
+.avatar-wrap{
+  width:220px;
+  height:220px;
+  margin:0 auto 18px;
+  overflow:hidden;
+  border-radius:50%;
+  border:1px solid var(--border);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#fff;
+}
 .avatar{width:100%;height:100%;object-fit:cover;background:#f4f4f4}
+.avatar--logo{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  object-position:center 62%;
+  padding:26px;
+  background:#fff;
+}
 
-/* placeholder cuadrado */
-.ph-wrap{width:120px;height:120px;margin:0 auto 18px;border:1px solid var(--border);
-  border-radius:8px;overflow:hidden;background:#fff}
-.avatar--ph{width:100%;height:100%;object-fit:contain;padding:10px;background:#fff}
-
-.cargo{font-weight:700;letter-spacing:.6px;font-size:14px;margin:6px 0 2px;text-transform:uppercase}
-.name{font-weight:600;font-size:18px;margin:0 0 14px}
-.grado{font-weight:700;font-size:14px;text-transform:uppercase;margin:6px 0}
+.name{font-weight:700;font-size:18px;margin:0 6px 6px}
+.grado{font-weight:600;font-size:14px;text-transform:uppercase;margin:8px 0 4px}
 .meta{font-size:14px;color:var(--muted);line-height:1.5;margin:4px 0}
-.btn{display:inline-block;margin-top:18px;padding:10px 16px;border-radius:8px;
-  border:1.5px solid var(--accent);color:var(--accent);background:transparent;
-  text-decoration:none;font-weight:600}
-.btn:hover{filter:brightness(.9)}
+.btn{
+  display:inline-block;
+  margin-top:14px;
+  padding:10px 16px;
+  border-radius:8px;
+  border:1.5px solid var(--brand);
+  color:var(--brand);
+  background:transparent;
+  text-decoration:none;
+  font-weight:700;
+  transition:all .15s;
+}
+.btn:hover{
+  background:var(--brand);
+  color:#fff;
+  filter:brightness(1.05);
+}
 
 /* Píldoras */
-.pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;justify-content:center}
-.pill{font-size:12px;padding:6px 12px;border-radius:999px;cursor:pointer;user-select:none}
-.pill--cat{font-size:14px;font-weight:700;background:var(--green);color:#fff;border:0}
-.pill--int{background:var(--brand);color:#fff;border:0}
-.pill--int.active,.pill--cat.active{filter:brightness(.9)}
+.pills{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:10px;
+  justify-content:center;
+}
+.pill{
+  font-size:12px;
+  padding:6px 12px;
+  border-radius:999px;
+  user-select:none;
+  color:#fff;
+  border:0;
+}
+.pill--cat{
+  font-size:14px;
+  font-weight:700;
+  background:var(--green);
+  color:#fff;
+}
+.pill--int{
+  background:var(--brand);
+  color:#fff;
+}
+.pill--int.active,.pill--cat.active{
+  filter:brightness(.9);
+}
 
-.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
-.badge{font-size:12px;padding:6px 10px;border-radius:999px;background:#f3f5f8;border:1px solid var(--border)}
+.badge{
+  font-size:12px;
+  padding:6px 10px;
+  border-radius:999px;
+  background:#f3f5f8;
+  border:1px solid var(--border);
+}
 .clear{cursor:pointer;text-decoration:underline;font-size:12px}
-.filterbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:8px 0 18px}
+.filterbar{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
+  margin:8px 0 18px;
+}
 </style>
 
 <div class="header">
@@ -76,40 +171,32 @@ let activeCat = '';
 let activeInt = '';
 
 const esc=s=>String(s||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
-
-function fotoSrc(r){
-  if(r.fotoGit) return `${GITHUB_BASE}${r.fotoGit}`;
-  return PLACEHOLDER;
-}
-
-function pill(label, cls='', data=''){
-  return `<span class="pill ${cls}" data-val="${esc(data||label)}">${esc(label)}</span>`;
-}
+function fotoSrc(r){ return r.fotoGit ? `${GITHUB_BASE}${r.fotoGit}` : PLACEHOLDER; }
+function pill(label, cls='', data=''){ return `<span class="pill ${cls}" data-val="${esc(data||label)}">${esc(label)}</span>`; }
 
 function render(list){
   elGrid.innerHTML = list.map(r=>{
     const src = fotoSrc(r);
     const isPh = src === PLACEHOLDER;
     const avatar = isPh
-      ? `<div class="ph-wrap"><img class="avatar--ph" src="${esc(src)}" alt=""></div>`
+      ? `<div class="avatar-wrap"><img class="avatar--logo" src="${esc(src)}" alt=""></div>`
       : `<div class="avatar-wrap"><img class="avatar" src="${esc(src)}" alt=""></div>`;
-
-    const intereses = (r.intereses_list||[])
-      .map(t=>pill(t, `pill--int ${activeInt===t?'active':''}`, t)).join('');
 
     const cat = r.categoria
       ? pill(r.categoria, `pill--cat ${activeCat===r.categoria?'active':''}`, r.categoria)
       : '';
 
+    const intereses = (r.intereses_list||[])
+      .map(t=>pill(t, `pill--int ${activeInt===t?'active':''}`, t)).join('');
+
     return `
     <div class="card">
       ${avatar}
-      ${r.cargo ? `<div class="cargo">${esc(r.cargo)}</div>` : ''}
       <div class="name">${esc(r.nombre||'')}</div>
+      <div class="pills" data-type="cat">${cat}</div>
       ${r.formacion ? `<div class="grado">${esc(r.formacion)}</div>` : ''}
       ${r.afiliacion ? `<div class="meta">${esc(r.afiliacion)}</div>` : ''}
       ${r.enlace ? `<a class="btn" href="${esc(r.enlace)}" target="_blank" rel="noopener">Más información</a>` : ''}
-      <div class="pills" data-type="cat">${cat}</div>
       <div class="pills" data-type="int">${intereses}</div>
     </div>`;
   }).join('');
@@ -136,15 +223,14 @@ function update(){
   render(res.length ? res : []);
   elAC.textContent = activeCat ? `Categoría: ${activeCat}` : '';
   elAI.textContent = activeInt ? `Interés: ${activeInt}` : '';
-  const any = !!(activeCat||activeInt);
-  elClear.style.display = any ? '' : 'none';
+  elClear.style.display = (activeCat||activeInt) ? '' : 'none';
 }
 
 function handleData(arr){
   allRows=(arr||[]).filter(r=>r && r.nombre);
   allRows.forEach(r=>{
     if(!Array.isArray(r.intereses_list)){
-      r.intereses_list = String(r.intereses||'').split(';').map(s=>s.trim()).filter(Boolean);
+      r.intereses_list = String(r.intereses||'').split(/[;,]/).map(s=>s.trim()).filter(Boolean);
     }
   });
   fuse=new Fuse(allRows,{keys:["nombre","formacion","afiliacion","intereses","cargo","categoria"],threshold:0.33});
