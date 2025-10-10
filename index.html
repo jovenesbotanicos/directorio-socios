@@ -1,10 +1,13 @@
 <!doctype html><html lang="es"><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1"><title>Directorio JxBE</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Directorio JxBE</title>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
 <style>
 :root{
   --bg:#fff;--text:#111;--muted:#555;--card:#fff;--border:#e2e2e2;
-  --brand:#2469AA;--accent:#111;--radius:12px
+  --brand:#2469AA;--accent:#111;--radius:12px;
+  --green:#2e7d32; /* verde institucional */
 }
 *{box-sizing:border-box}
 body{font-family:Montserrat,system-ui,Arial;background:var(--bg);color:var(--text);margin:0;padding:24px}
@@ -25,18 +28,18 @@ body{font-family:Montserrat,system-ui,Arial;background:var(--bg);color:var(--tex
 .name{font-weight:600;font-size:18px;margin:0 0 14px}
 .grado{font-weight:700;font-size:14px;text-transform:uppercase;margin:6px 0}
 .meta{font-size:14px;color:var(--muted);line-height:1.5;margin:4px 0}
-.intereses{font-size:14px;color:var(--muted);line-height:1.5;margin:12px 0 0}
 .btn{display:inline-block;margin-top:18px;padding:10px 16px;border-radius:8px;
   border:1.5px solid var(--accent);color:var(--accent);background:transparent;
   text-decoration:none;font-weight:600}
 .btn:hover{filter:brightness(.9)}
-</style>
 
-<style>
-/* añade pildoras */
+/* Píldoras */
 .pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;justify-content:center}
-.pill{font-size:12px;border:1px solid var(--border);padding:6px 10px;border-radius:999px;cursor:pointer}
-.pill.active{border-color:var(--brand);color:var(--brand);font-weight:600}
+.pill{font-size:12px;padding:6px 12px;border-radius:999px;cursor:pointer;user-select:none}
+.pill--cat{font-size:14px;font-weight:700;background:var(--green);color:#fff;border:0}
+.pill--int{background:var(--brand);color:#fff;border:0}
+.pill--int.active,.pill--cat.active{filter:brightness(.9)}
+
 .toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
 .badge{font-size:12px;padding:6px 10px;border-radius:999px;background:#f3f5f8;border:1px solid var(--border)}
 .clear{cursor:pointer;text-decoration:underline;font-size:12px}
@@ -73,7 +76,6 @@ let activeCat = '';
 let activeInt = '';
 
 const esc=s=>String(s||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
-const shuffle=a=>{for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]];}return a;};
 
 function fotoSrc(r){
   if(r.fotoGit) return `${GITHUB_BASE}${r.fotoGit}`;
@@ -93,8 +95,11 @@ function render(list){
       : `<div class="avatar-wrap"><img class="avatar" src="${esc(src)}" alt=""></div>`;
 
     const intereses = (r.intereses_list||[])
-      .map(t=>pill(t, activeInt===t?'active':'', t)).join('');
-    const cat = r.categoria ? pill(r.categoria, activeCat===r.categoria?'active':'', r.categoria) : '';
+      .map(t=>pill(t, `pill--int ${activeInt===t?'active':''}`, t)).join('');
+
+    const cat = r.categoria
+      ? pill(r.categoria, `pill--cat ${activeCat===r.categoria?'active':''}`, r.categoria)
+      : '';
 
     return `
     <div class="card">
@@ -109,7 +114,6 @@ function render(list){
     </div>`;
   }).join('');
 
-  // eventos de pildoras
   elGrid.querySelectorAll('.pills[data-type="int"] .pill').forEach(p=>{
     p.onclick = ()=>{ activeInt = p.dataset.val===activeInt ? '' : p.dataset.val; update(); };
   });
@@ -120,9 +124,7 @@ function render(list){
 
 function applyFilters(rows, q){
   let arr = rows;
-  if(q){
-    arr = fuse.search(q).map(x=>x.item);
-  }
+  if(q) arr = fuse.search(q).map(x=>x.item);
   if(activeCat) arr = arr.filter(r=>String(r.categoria||'')===activeCat);
   if(activeInt) arr = arr.filter(r=>(r.intereses_list||[]).includes(activeInt));
   return arr;
@@ -140,7 +142,6 @@ function update(){
 
 function handleData(arr){
   allRows=(arr||[]).filter(r=>r && r.nombre);
-  // fallback si el backend aún no genera intereses_list
   allRows.forEach(r=>{
     if(!Array.isArray(r.intereses_list)){
       r.intereses_list = String(r.intereses||'').split(';').map(s=>s.trim()).filter(Boolean);
@@ -150,7 +151,6 @@ function handleData(arr){
   update();
 }
 
-// cargar datos
 fetch(`${DATA_URL}?t=${Date.now()}`)
   .then(r=>r.json())
   .then(handleData)
