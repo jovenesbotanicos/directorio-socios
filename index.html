@@ -32,71 +32,130 @@ body{font-family:Montserrat,system-ui,Arial;background:var(--bg);color:var(--tex
 .btn:hover{filter:brightness(.9)}
 </style>
 
+<style>
+/* añade pildoras */
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;justify-content:center}
+.pill{font-size:12px;border:1px solid var(--border);padding:6px 10px;border-radius:999px;cursor:pointer}
+.pill.active{border-color:var(--brand);color:var(--brand);font-weight:600}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.badge{font-size:12px;padding:6px 10px;border-radius:999px;background:#f3f5f8;border:1px solid var(--border)}
+.clear{cursor:pointer;text-decoration:underline;font-size:12px}
+.filterbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:8px 0 18px}
+</style>
+
 <div class="header">
   <input id="q" type="search" placeholder="Buscar por nombre, formación, afiliación, intereses">
   <div class="brand">JxBE · Directorio</div>
 </div>
+
+<div class="filterbar">
+  <span class="badge" id="activeCat"></span>
+  <span class="badge" id="activeInt"></span>
+  <span class="clear" id="clearFilters" style="display:none">Quitar filtros</span>
+</div>
+
 <div id="grid" class="grid"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
 <script>
-const GITHUB_BASE = "https://raw.githubusercontent.com/jovenesbotanicos/directorio-socios/main/fotos/";
+const GITHUB_BASE = "https://raw.githubusercontent.com/jovenesbotanicos/directorio-socios/main/";
 const DATA_URL    = "https://raw.githubusercontent.com/jovenesbotanicos/directorio-socios/main/data/data.json";
 const PLACEHOLDER = "https://raw.githubusercontent.com/jovenesbotanicos/directorio-socios/main/logo.png";
 
 const elQ = document.getElementById('q');
 const elGrid = document.getElementById('grid');
-const SHOW_ROWS=5, PER_ROW=5, DEFAULT_COUNT=SHOW_ROWS*PER_ROW;
+const elAC = document.getElementById('activeCat');
+const elAI = document.getElementById('activeInt');
+const elClear = document.getElementById('clearFilters');
 
 let allRows=[], fuse;
-const esc=s=>String(s||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+let activeCat = '';
+let activeInt = '';
 
-function gitFoto(u){
-  const m = u && String(u).match(/(?:id=|\/d\/)([A-Za-z0-9_-]{10,})/);
-  return m ? `${GITHUB_BASE}${m[1]}.jpg` : PLACEHOLDER;
+const esc=s=>String(s||'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+const shuffle=a=>{for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]];}return a;};
+
+function fotoSrc(r){
+  if(r.fotoGit) return `${GITHUB_BASE}${r.fotoGit}`;
+  return PLACEHOLDER;
 }
 
-const shuffle=a=>{for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]];}return a;};
+function pill(label, cls='', data=''){
+  return `<span class="pill ${cls}" data-val="${esc(data||label)}">${esc(label)}</span>`;
+}
 
 function render(list){
   elGrid.innerHTML = list.map(r=>{
-    const src = gitFoto(r.foto);
+    const src = fotoSrc(r);
     const isPh = src === PLACEHOLDER;
     const avatar = isPh
       ? `<div class="ph-wrap"><img class="avatar--ph" src="${esc(src)}" alt=""></div>`
       : `<div class="avatar-wrap"><img class="avatar" src="${esc(src)}" alt=""></div>`;
-    const cargo = r.cargo ? `<div class="cargo">${esc(r.cargo)}</div>` : '';
-    const grado = r.formacion ? `<div class="grado">${esc(r.formacion)}</div>` : '';
-    const afil  = r.afiliacion ? `<div class="meta">${esc(r.afiliacion)}</div>` : '';
-    const inter = r.intereses ? `<div class="intereses">${esc(r.intereses)}</div>` : '';
-    const btn   = r.enlace ? `<a class="btn" href="${esc(r.enlace)}" target="_blank" rel="noopener">Más información</a>` : '';
+
+    const intereses = (r.intereses_list||[])
+      .map(t=>pill(t, activeInt===t?'active':'', t)).join('');
+    const cat = r.categoria ? pill(r.categoria, activeCat===r.categoria?'active':'', r.categoria) : '';
+
     return `
     <div class="card">
       ${avatar}
-      ${cargo}
+      ${r.cargo ? `<div class="cargo">${esc(r.cargo)}</div>` : ''}
       <div class="name">${esc(r.nombre||'')}</div>
-      ${grado}
-      ${afil}
-      ${inter}
-      ${btn}
+      ${r.formacion ? `<div class="grado">${esc(r.formacion)}</div>` : ''}
+      ${r.afiliacion ? `<div class="meta">${esc(r.afiliacion)}</div>` : ''}
+      ${r.enlace ? `<a class="btn" href="${esc(r.enlace)}" target="_blank" rel="noopener">Más información</a>` : ''}
+      <div class="pills" data-type="cat">${cat}</div>
+      <div class="pills" data-type="int">${intereses}</div>
     </div>`;
   }).join('');
+
+  // eventos de pildoras
+  elGrid.querySelectorAll('.pills[data-type="int"] .pill').forEach(p=>{
+    p.onclick = ()=>{ activeInt = p.dataset.val===activeInt ? '' : p.dataset.val; update(); };
+  });
+  elGrid.querySelectorAll('.pills[data-type="cat"] .pill').forEach(p=>{
+    p.onclick = ()=>{ activeCat = p.dataset.val===activeCat ? '' : p.dataset.val; update(); };
+  });
+}
+
+function applyFilters(rows, q){
+  let arr = rows;
+  if(q){
+    arr = fuse.search(q).map(x=>x.item);
+  }
+  if(activeCat) arr = arr.filter(r=>String(r.categoria||'')===activeCat);
+  if(activeInt) arr = arr.filter(r=>(r.intereses_list||[]).includes(activeInt));
+  return arr;
+}
+
+function update(){
+  const q = elQ.value.trim();
+  const res = applyFilters(allRows, q);
+  render(res.length ? res : []);
+  elAC.textContent = activeCat ? `Categoría: ${activeCat}` : '';
+  elAI.textContent = activeInt ? `Interés: ${activeInt}` : '';
+  const any = !!(activeCat||activeInt);
+  elClear.style.display = any ? '' : 'none';
 }
 
 function handleData(arr){
   allRows=(arr||[]).filter(r=>r && r.nombre);
-  fuse=new Fuse(allRows,{keys:["nombre","formacion","afiliacion","intereses","cargo"],threshold:0.33});
-  render(shuffle([...allRows]).slice(0, DEFAULT_COUNT));
+  // fallback si el backend aún no genera intereses_list
+  allRows.forEach(r=>{
+    if(!Array.isArray(r.intereses_list)){
+      r.intereses_list = String(r.intereses||'').split(';').map(s=>s.trim()).filter(Boolean);
+    }
+  });
+  fuse=new Fuse(allRows,{keys:["nombre","formacion","afiliacion","intereses","cargo","categoria"],threshold:0.33});
+  update();
 }
 
-// carga datos (cache-busting)
+// cargar datos
 fetch(`${DATA_URL}?t=${Date.now()}`)
   .then(r=>r.json())
   .then(handleData)
   .catch(()=>{ elGrid.textContent="Error cargando datos."; });
 
-elQ.addEventListener('input', e=>{
-  const v=e.target.value.trim();
-  render(v ? fuse.search(v).map(x=>x.item) : shuffle([...allRows]).slice(0, DEFAULT_COUNT));
-});
+elQ.addEventListener('input', update);
+elClear.onclick = ()=>{ activeCat=''; activeInt=''; update(); };
 </script>
