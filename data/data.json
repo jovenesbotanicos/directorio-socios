@@ -293,7 +293,7 @@
     "nombre": "Joshua Borràs",
     "categoria": "Predoc",
     "formacion": "Doctorando en Biología de la Plantas (UIB)",
-    "afiliacion": "TEST Universitat de les Illes Balears",
+    "afiliacion": "Universitat de les Illes Balears",
     "intereses": "Conservación; Cambio Global; Bioestadística; Interacciones",
     "foto": "https://drive.google.com/file/d/1lRcgyPQs9kwkx1ETlh3gy00mRE0mjwgQ/view?usp=sharing",
     "enlace": "https://linktr.ee/JoshuaBorras",
@@ -331,6 +331,28 @@
       "biologia floral",
       "interacciones planta-animal",
       "evolucion vegetal"
+    ]
+  },
+  {
+    "nombre": "Celia González López",
+    "categoria": "",
+    "formacion": "Doctoranda en Biología Integrada (US)",
+    "afiliacion": "Estación Biológica de Doñana (EBD-CSIC)",
+    "intereses": "Biogeografía y Macroecología; Ecosistemas Abiertos; Ecología Computacional; Socioecología",
+    "foto": "",
+    "enlace": "https://bsky.app/profile/celiagonzl.bsky.social",
+    "fotoGit": null,
+    "intereses_list": [
+      "Biogeografía y Macroecología",
+      "Ecosistemas Abiertos",
+      "Ecología Computacional",
+      "Socioecología"
+    ],
+    "intereses_key": [
+      "biogeografia y macroecologia",
+      "ecosistemas abiertos",
+      "ecologia computacional",
+      "socioecologia"
     ]
   }
 ]
