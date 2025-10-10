@@ -1,203 +1,222 @@
 [
   {
     "nombre": "Carlos Eced",
-    "cargo": "",
+    "categoria": "",
     "formacion": "Estudiante de Ciencias Ambientales",
     "afiliacion": "UV",
-    "intereses": "Ecología, conservación, biogeografía, briófitos",
+    "intereses": "Ecología; conservación; biogeografía; briófitos",
     "foto": "https://drive.google.com/open?id=1EQCcWSWGe5CtLHtOh-Q4kabV0w_eblEg",
     "enlace": "",
     "fotoGit": "fotos/n-carlos-eced.jpg",
     "intereses_list": [
-      "Ecología, conservación, biogeografía, briófitos"
-    ],
-    "categoria": ""
+      "Ecología",
+      "conservación",
+      "biogeografía",
+      "briófitos"
+    ]
   },
   {
     "nombre": "Andrea González Dorta",
-    "cargo": "",
+    "categoria": "",
     "formacion": "Grado Biología ULL",
     "afiliacion": "",
-    "intereses": "Etnobotánica, ecología, gestión forestal y conservación",
+    "intereses": "Etnobotánica; ecología; gestión forestal y conservación",
     "foto": "https://drive.google.com/open?id=1SBNgKlBrPNa83VL3FQz7LBV3_zNmUJo_",
     "enlace": "https://instagram.com/llevahojas?igshid=YmMyMTA2M2Y=",
     "fotoGit": "fotos/u-1dbf39fb32ec6e94.jpg",
     "intereses_list": [
-      "Etnobotánica, ecología, gestión forestal y conservación"
-    ],
-    "categoria": ""
+      "Etnobotánica",
+      "ecología",
+      "gestión forestal y conservación"
+    ]
   },
   {
     "nombre": "Gonzalo Albino Tendero",
-    "cargo": "",
+    "categoria": "",
     "formacion": "",
     "afiliacion": "",
-    "intereses": "Biogeografía, briología, liquenología, micología.",
+    "intereses": "Biogeografía; briología; liquenología; micología.",
     "foto": "",
     "enlace": "https://www.linkedin.com/in/gonzalo-albino-tendero-3228891b8/?originalSubdomain=es",
     "fotoGit": null,
     "intereses_list": [
-      "Biogeografía, briología, liquenología, micología."
-    ],
-    "categoria": ""
+      "Biogeografía",
+      "briología",
+      "liquenología",
+      "micología."
+    ]
   },
   {
     "nombre": "Mario Fernández-Mazuecos Santa Teresa",
-    "cargo": "",
+    "categoria": "",
     "formacion": "Doctor en Biología Evolutiva y Biodiversidad (UAM)",
     "afiliacion": "Universidad Autónoma de Madrid",
-    "intereses": "Evolución, biogeografía, sistemática, conservación",
+    "intereses": "Evolución; biogeografía; sistemática; conservación",
     "foto": "https://drive.google.com/open?id=1uSwH-V0Pa4mgvffezOZ9PVWvEle3tNMH",
     "enlace": "https://mfmazuecos.weebly.com/",
     "fotoGit": "fotos/u-2b2815b8c89a9ceb.jpg",
     "intereses_list": [
-      "Evolución, biogeografía, sistemática, conservación"
-    ],
-    "categoria": ""
+      "Evolución",
+      "biogeografía",
+      "sistemática",
+      "conservación"
+    ]
   },
   {
     "nombre": "Ana María Mingorance Paredes",
-    "cargo": "",
+    "categoria": "",
     "formacion": "Doctorado en Historia y Artes - Universidad de Granda",
     "afiliacion": "Universidad de Granada",
-    "intereses": "Ilustración científica botánica, sistemática, conservación y etnobotánica. ",
+    "intereses": "Ilustración científica botánica; sistemática; conservación y etnobotánica. ",
     "foto": "https://drive.google.com/open?id=1cNxsJqFUzK6jvjy7ptPzT3U1jFIiqlIn",
     "enlace": "https://scholar.google.es/citations?user=00glUb8AAAAJ&hl=es&oi=ao",
     "fotoGit": "fotos/u-b82431a4a946dffc.jpg",
     "intereses_list": [
-      "Ilustración científica botánica, sistemática, conservación y etnobotánica."
-    ],
-    "categoria": ""
+      "Ilustración científica botánica",
+      "sistemática",
+      "conservación y etnobotánica."
+    ]
   },
   {
     "nombre": "Francisco Gómez Prieto",
-    "cargo": "",
+    "categoria": "",
     "formacion": "Estudiante Máster Universitario en Ecología (UAM-UCM)",
     "afiliacion": "",
-    "intereses": "Taxonomía, sistemática, conservación ",
+    "intereses": "Taxonomía; sistemática; conservación ",
     "foto": "https://drive.google.com/open?id=1Q5IhvS5CqGSSch86wBdyduEHNqiin5kt",
     "enlace": "https://www.linkedin.com/in/fcogopri",
     "fotoGit": "fotos/u-1182a5e0bca81f29.jpg",
     "intereses_list": [
-      "Taxonomía, sistemática, conservación"
-    ],
-    "categoria": ""
+      "Taxonomía",
+      "sistemática",
+      "conservación"
+    ]
   },
   {
     "nombre": "Clara Canós López",
-    "cargo": "",
+    "categoria": "",
     "formacion": "Grado en Biología, UV (cuarto curso, me gradúo en 1 mes)",
     "afiliacion": "UV (realizando prácticas en el departamento de Botánica)",
-    "intereses": "Evolución, genética de poblaciones, liquenología y fitoplacton",
+    "intereses": "Evolución; genética de poblaciones; liquenología y fitoplacton",
     "foto": "https://drive.google.com/open?id=1yWb2Kjbn2sI5F-oKfqLFtkPVCMOP0P1q",
     "enlace": "",
     "fotoGit": "fotos/n-clara-canos-lopez.jpg",
     "intereses_list": [
-      "Evolución, genética de poblaciones, liquenología y fitoplacton"
-    ],
-    "categoria": ""
+      "Evolución",
+      "genética de poblaciones",
+      "liquenología y fitoplacton"
+    ]
   },
   {
     "nombre": "Martina Romero Tomàs",
-    "cargo": "",
+    "categoria": "",
     "formacion": "Estudiante de Biología Ambiental, en la UAB (en curso)",
     "afiliacion": "",
-    "intereses": "ecología, gestión y conservación, biogeografía, polinización",
+    "intereses": "ecología; gestión y conservación; biogeografía; polinización",
     "foto": "",
     "enlace": "",
     "fotoGit": null,
     "intereses_list": [
-      "ecología, gestión y conservación, biogeografía, polinización"
-    ],
-    "categoria": ""
+      "ecología",
+      "gestión y conservación",
+      "biogeografía",
+      "polinización"
+    ]
   },
   {
     "nombre": "Pere Miquel Mir Rosselló",
-    "cargo": "",
+    "categoria": "",
     "formacion": "Máster en Biotecnología Aplicada (UIB)",
     "afiliacion": "Universitat de les Illes Balears",
-    "intereses": "briología, conservación, corología, diversidad",
+    "intereses": "briología; conservación; corología; diversidad",
     "foto": "https://drive.google.com/open?id=1C4olZalIhn6Q3rL1GRlglctx-CdGm8Yx",
     "enlace": "",
     "fotoGit": "fotos/n-pere-miquel-mir-rossello.jpg",
     "intereses_list": [
-      "briología, conservación, corología, diversidad"
-    ],
-    "categoria": ""
+      "briología",
+      "conservación",
+      "corología",
+      "diversidad"
+    ]
   },
   {
     "nombre": "Eva Martínez Veiga",
-    "cargo": "",
+    "categoria": "",
     "formacion": "Estudiante de doctorado: Diversidad florística en Comunidades vegetales",
     "afiliacion": "UDC",
-    "intereses": "Vegetación, flora amenazada, pteridología",
+    "intereses": "Vegetación; flora amenazada; pteridología",
     "foto": "https://drive.google.com/open?id=1rp1Em8IFmizPjjHCQuesfIPc5VixusAg",
     "enlace": "https://www.researchgate.net/profile/Eva-Veiga?ev=hdr_xprf",
     "fotoGit": "fotos/u-a6ef01d216bd846d.jpg",
     "intereses_list": [
-      "Vegetación, flora amenazada, pteridología"
-    ],
-    "categoria": ""
+      "Vegetación",
+      "flora amenazada",
+      "pteridología"
+    ]
   },
   {
     "nombre": "Sara María Parras León",
-    "cargo": "",
+    "categoria": "",
     "formacion": "Doctoranda Recursos Naturales y Gestión Sostenible ",
     "afiliacion": "eidA3-UCO",
-    "intereses": "Taxonomía, Flora Silvestre Urbana, Plantas Vasculares, Divulgación",
+    "intereses": "Taxonomía; Flora Silvestre Urbana; Plantas Vasculares; Divulgación",
     "foto": "https://drive.google.com/open?id=1m1-e83mAHsnj_9_w6UGrtQ1dAxhf7lLX",
     "enlace": "https://www.instagram.com/plantasvecinas/",
     "fotoGit": "fotos/u-e9febaa7efcc80d2.jpg",
     "intereses_list": [
-      "Taxonomía, Flora Silvestre Urbana, Plantas Vasculares, Divulgación"
-    ],
-    "categoria": ""
+      "Taxonomía",
+      "Flora Silvestre Urbana",
+      "Plantas Vasculares",
+      "Divulgación"
+    ]
   },
   {
     "nombre": "Elías Gallego Granero ",
-    "cargo": "",
+    "categoria": "",
     "formacion": "Técnico en Conservación y Gestión del Medio Natural",
     "afiliacion": "",
-    "intereses": "Forestal, Agronómica, Etnobotanica",
+    "intereses": "Forestal; Agronómica; Etnobotanica",
     "foto": "https://drive.google.com/open?id=1le-N8lWmoXVtLg0W_ww93ocrOpbq80U_",
     "enlace": "",
     "fotoGit": "fotos/n-elias-gallego-granero.jpg",
     "intereses_list": [
-      "Forestal, Agronómica, Etnobotanica"
-    ],
-    "categoria": ""
+      "Forestal",
+      "Agronómica",
+      "Etnobotanica"
+    ]
   },
   {
     "nombre": "Ana Paula Melero",
-    "cargo": "",
+    "categoria": "",
     "formacion": "4º de Biología en la Universidad de León ",
     "afiliacion": "Universidad de León ",
-    "intereses": "Conservación, etnobotánica",
+    "intereses": "Conservación; etnobotánica",
     "foto": "https://drive.google.com/open?id=18u7GRIbts5GmFWBsPMhrIC11x0p8KiLd",
     "enlace": "https://www.instagram.com/itsann_photo/",
     "fotoGit": "fotos/u-48b974a8a656278d.jpg",
     "intereses_list": [
-      "Conservación, etnobotánica"
-    ],
-    "categoria": ""
+      "Conservación",
+      "etnobotánica"
+    ]
   },
   {
     "nombre": "Adrián Custodia Malvido",
-    "cargo": "",
+    "categoria": "",
     "formacion": "Grado en ciencias ambientales (En curso)",
     "afiliacion": "Universidad de Granada ",
-    "intereses": "Evolución, biogeografía, adaptación y estrés ",
+    "intereses": "Evolución; biogeografía; adaptación y estrés ",
     "foto": "https://drive.google.com/open?id=1PAMeE7YS8YJEsxro1bmEvVwTOVMWZHJO",
     "enlace": "https://x.com/LoBiologia?s=09",
     "fotoGit": "fotos/u-abb62241b77e8bd9.jpg",
     "intereses_list": [
-      "Evolución, biogeografía, adaptación y estrés"
-    ],
-    "categoria": ""
+      "Evolución",
+      "biogeografía",
+      "adaptación y estrés"
+    ]
   },
   {
     "nombre": "Joshua Borràs",
-    "cargo": "Predoc",
+    "categoria": "Predoc",
     "formacion": "Doctorando en Biología de la Plantas (UIB)",
     "afiliacion": "Universitat de les Illes Balears",
     "intereses": "Conservación; Cambio Global; Bioestadística; Interacciones",
@@ -209,21 +228,22 @@
       "Cambio Global",
       "Bioestadística",
       "Interacciones"
-    ],
-    "categoria": ""
+    ]
   },
   {
     "nombre": "Andrés Romero Bravo",
-    "cargo": "",
+    "categoria": "",
     "formacion": "Doctor en Ecología Evolutiva de Plantas",
     "afiliacion": "University of Sussex",
-    "intereses": "Ecología evolutiva, biología floral, interacciones planta-animal, evolución vegetal",
+    "intereses": "Ecología evolutiva; biología floral; interacciones planta-animal; evolución vegetal",
     "foto": "https://drive.google.com/open?id=1e3fV9ZrZEs523EfdUHgoLYgTk3p4GxHt",
     "enlace": "https://www.linkedin.com/in/aromerobravo/",
     "fotoGit": "fotos/u-a9a3dc43c2777b78.jpg",
     "intereses_list": [
-      "Ecología evolutiva, biología floral, interacciones planta-animal, evolución vegetal"
-    ],
-    "categoria": ""
+      "Ecología evolutiva",
+      "biología floral",
+      "interacciones planta-animal",
+      "evolución vegetal"
+    ]
   }
 ]
