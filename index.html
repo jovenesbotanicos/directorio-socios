@@ -226,14 +226,23 @@ function update(){
   elClear.style.display = (activeCat||activeInt) ? '' : 'none';
 }
 
+function shuffle(arr){
+  for(let i=arr.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [arr[i],arr[j]]=[arr[j],arr[i]];
+  }
+  return arr;
+}
+
 function handleData(arr){
-  allRows=(arr||[]).filter(r=>r && r.nombre);
+  allRows = (arr||[]).filter(r=>r && r.nombre);
   allRows.forEach(r=>{
     if(!Array.isArray(r.intereses_list)){
       r.intereses_list = String(r.intereses||'').split(/[;,]/).map(s=>s.trim()).filter(Boolean);
     }
   });
-  fuse=new Fuse(allRows,{keys:["nombre","formacion","afiliacion","intereses","cargo","categoria"],threshold:0.33});
+  allRows = shuffle(allRows); // baraja antes de crear el buscador
+  fuse = new Fuse(allRows,{keys:["nombre","formacion","afiliacion","intereses","cargo","categoria"],threshold:0.33});
   update();
 }
 
