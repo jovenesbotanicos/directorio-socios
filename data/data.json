@@ -66,6 +66,28 @@
     ]
   },
   {
+    "nombre": "Joshua Borràs",
+    "categoria": "Predoc",
+    "formacion": "Dotorado en Biologia de las Plantas 2",
+    "afiliacion": "Universitat de les Illes Balears (UIB)",
+    "intereses": "PALABRA1; PALABRA2; PALABRA3; PALABRA4",
+    "foto": "https://i.imgur.com/0zNxXo7.png",
+    "enlace": "",
+    "fotoGit": "fotos/n-joshua-borras.png",
+    "intereses_list": [
+      "PALABRA1",
+      "PALABRA2",
+      "PALABRA3",
+      "PALABRA4"
+    ],
+    "intereses_key": [
+      "palabra1",
+      "palabra2",
+      "palabra3",
+      "palabra4"
+    ]
+  },
+  {
     "nombre": "Carlos Eced",
     "categoria": "Estudiante",
     "formacion": "Grado en Ciencias Ambientales",
