@@ -88,6 +88,28 @@
     ]
   },
   {
+    "nombre": "Sonia Molino",
+    "categoria": "Postdoc",
+    "formacion": "Doctora en Biología (UCM)",
+    "afiliacion": "Instituto de Investigación en Cambio Global (URJC)",
+    "intereses": "Pteridófitos, Biogeografía, Taxonomía, Sistemática",
+    "foto": "https://drive.google.com/file/d/1ACLauxxsDc0vFo2SRIGIICDQ1pWJFdcw/view?usp=drivesdk",
+    "enlace": "www.soniamolino.com",
+    "fotoGit": "fotos/u-4c52a3be5911a8a9.jpg",
+    "intereses_list": [
+      "Pteridófitos",
+      "Biogeografía",
+      "Taxonomía",
+      "Sistemática"
+    ],
+    "intereses_key": [
+      "pteridofitos",
+      "biogeografia",
+      "taxonomia",
+      "sistematica"
+    ]
+  },
+  {
     "nombre": "Carlos Eced",
     "categoria": "Estudiante",
     "formacion": "Grado en Ciencias Ambientales",
