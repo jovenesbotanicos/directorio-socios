@@ -1,14 +1,29 @@
 [
   {
-    "nombre": "#N/A",
-    "categoria": "",
-    "formacion": "",
-    "afiliacion": "",
-    "intereses": "",
-    "foto": "",
-    "enlace": "",
+    "marca temporal": "2025-10-19T10:31:30.948Z",
+    "email": "joshua.rieraborras@gmail.com",
+    "nif": "45184302C",
+    "nombre": "Joshua Borràs Riera",
+    "alias": "Jsohua Borràs",
+    "categoria": "Doctorando/a (Predoc)",
+    "formacion": "Doctorado en Biología de las Plantas (UIB)",
+    "afiliacion": "Universitat de les Illes Balears",
+    "intereses": "Conservación; Bioinformática; Cambio Global; Interacciones",
+    "foto": "https://github.com/jrb772/firma-joshua/blob/main/foto.png",
+    "enlace": "https://linktr.ee/JoshuaBorras",
+    "consentimiento": "OBLIGATORIO: Acepto expresamente el tratamiento de los datos cedidos a JxBE.",
     "fotoGit": null,
-    "intereses_list": [],
-    "intereses_key": []
+    "intereses_list": [
+      "Conservación",
+      "Bioinformática",
+      "Cambio Global",
+      "Interacciones"
+    ],
+    "intereses_key": [
+      "conservacion",
+      "bioinformatica",
+      "cambio global",
+      "interacciones"
+    ]
   }
 ]
