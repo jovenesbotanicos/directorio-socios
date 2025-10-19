@@ -1,0 +1,23 @@
+[
+  {
+    "display_name": "Joshua Borràs TESTEO",
+    "nombre": "Joshua Borràs TESTEO",
+    "formacion": "Doctorado en Biología de las Plantas (UIB)",
+    "afiliacion": "Universitat de les Illes Balears",
+    "categoria": "Predoc",
+    "intereses_list": [
+      "Conservación",
+      "Bioinformática",
+      "Cambio Global",
+      "Interacciones"
+    ],
+    "intereses_key": [
+      "conservacion",
+      "bioinformatica",
+      "cambio global",
+      "interacciones"
+    ],
+    "enlace": "https://linktr.ee/JoshuaBorras",
+    "fotoGit": "fotos/id-d393d0f0d6bad90e.png"
+  }
+]
