@@ -1,7 +1,7 @@
 [
   {
-    "display_name": "Joshua Borràs",
-    "nombre": "Joshua Borràs",
+    "display_name": "Joshua Borràs TESTEO",
+    "nombre": "Joshua Borràs TESTEO",
     "formacion": "Doctorado en Biología de las Plantas (UIB)",
     "afiliacion": "Universitat de les Illes Balears",
     "categoria": "Predoc",
@@ -27,18 +27,18 @@
     "afiliacion": "University of Sussex",
     "categoria": "Postdoc",
     "intereses_list": [
-      "Evolución",
-      "Ecología Evolutiva",
       "Biología floral",
+      "Evolución",
+      "Ecología evolutiva",
       "Polinización"
     ],
     "intereses_key": [
+      "biologia floral",
       "evolucion",
       "ecologia evolutiva",
-      "biologia floral",
       "polinizacion"
     ],
-    "enlace": "www.linkedin.com/in/aromerobravo/",
+    "enlace": "https://www.linkedin.com/in/aromerobravo/",
     "fotoGit": null
   }
 ]
