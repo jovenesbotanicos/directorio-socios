@@ -23,12 +23,22 @@
   {
     "display_name": "Andrés Romero Bravo",
     "nombre": "Andrés Romero Bravo",
-    "formacion": "",
-    "afiliacion": "",
-    "categoria": "",
-    "intereses_list": [],
-    "intereses_key": [],
-    "enlace": "",
+    "formacion": "Doctor en ecología evolutiva de plantas (Sussex)",
+    "afiliacion": "University of Sussex",
+    "categoria": "Doctor/a o investigador/a postdoctoral (Postdoc)",
+    "intereses_list": [
+      "Evolución",
+      "Ecología Evolutiva",
+      "Biología floral",
+      "Polinización"
+    ],
+    "intereses_key": [
+      "evolucion",
+      "ecologia evolutiva",
+      "biologia floral",
+      "polinizacion"
+    ],
+    "enlace": "www.linkedin.com/in/aromerobravo/",
     "fotoGit": null
   }
 ]
