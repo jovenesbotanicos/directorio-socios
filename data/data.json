@@ -40,5 +40,64 @@
     ],
     "enlace": "https://www.linkedin.com/in/aromerobravo/",
     "fotoGit": "fotos/id-2dea0896e03bcc94.jpg"
+  },
+  {
+    "display_name": "Guillermo Santos",
+    "nombre": "Guillermo Santos",
+    "formacion": "Master en Biodiversidad (UAM)",
+    "afiliacion": "Univerdad Complutense de Madrid",
+    "categoria": "Predoc",
+    "intereses_list": [
+      "Helechos",
+      "Evolución"
+    ],
+    "intereses_key": [
+      "helechos",
+      "evolucion"
+    ],
+    "enlace": "",
+    "fotoGit": "fotos/id-a649c37cbd6a11bb.jpg"
+  },
+  {
+    "display_name": "Víctor González García",
+    "nombre": "Víctor González García",
+    "formacion": "Doctorando en Biogeociencias (Universidad de Oviedo)",
+    "afiliacion": "Universidad de Oviedo",
+    "categoria": "Predoc",
+    "intereses_list": [
+      "Vegetación",
+      "Ecología urbana",
+      "Especies invasoras",
+      "Biogeografía"
+    ],
+    "intereses_key": [
+      "vegetacion",
+      "ecologia urbana",
+      "especies invasoras",
+      "biogeografia"
+    ],
+    "enlace": "https://www.researchgate.net/profile/Victor-Gonzalez-Garcia-2",
+    "fotoGit": "fotos/id-bba9b19e366ce39e.jpg"
+  },
+  {
+    "display_name": "Adrián S. Albert",
+    "nombre": "Adrián S. Albert",
+    "formacion": "Máster en Zoología (UCM)",
+    "afiliacion": "Museo Nacional de Ciencias Naturales",
+    "categoria": "Técnico/a",
+    "intereses_list": [
+      "Evolución",
+      "Conservación",
+      "Ecología vegetal",
+      "Polinización"
+    ],
+    "intereses_key": [
+      "evolucion",
+      "conservacion",
+      "ecologia vegetal",
+      "polinizacion"
+    ],
+    "enlace": "https://www.mncn.csic.es/es/quienes_somos/sanchez-albert-adrian",
+    "fotoGit": "fotos/id-0ce9a5325333da5b.jpg"
   }
 ]
