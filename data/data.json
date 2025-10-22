@@ -99,5 +99,22 @@
     ],
     "enlace": "https://www.mncn.csic.es/es/quienes_somos/sanchez-albert-adrian",
     "fotoGit": "fotos/id-0ce9a5325333da5b.jpg"
+  },
+  {
+    "display_name": "Francisco Gómez Prieto",
+    "nombre": "Francisco Gómez Prieto",
+    "formacion": "Máster en Ecología (UAM-UCM)",
+    "afiliacion": "",
+    "categoria": "Técnico/a",
+    "intereses_list": [
+      "Evolución",
+      "Biogeografía"
+    ],
+    "intereses_key": [
+      "evolucion",
+      "biogeografia"
+    ],
+    "enlace": "",
+    "fotoGit": null
   }
 ]
