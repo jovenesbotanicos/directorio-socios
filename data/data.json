@@ -1,26 +1,5 @@
 [
   {
-    "display_name": "Joshua Borràs TESTEO",
-    "nombre": "Joshua Borràs TESTEO",
-    "formacion": "Doctorado en Biología de las Plantas (UIB)",
-    "afiliacion": "Universitat de les Illes Balears",
-    "categoria": "Predoc",
-    "intereses_list": [
-      "Conservación",
-      "Bioinformática",
-      "Cambio Global",
-      "Interacciones"
-    ],
-    "intereses_key": [
-      "conservacion",
-      "bioinformatica",
-      "cambio global",
-      "interacciones"
-    ],
-    "enlace": "https://linktr.ee/JoshuaBorras",
-    "fotoGit": "fotos/id-d393d0f0d6bad90e.png"
-  },
-  {
     "display_name": "Andrés Romero Bravo",
     "nombre": "Andrés Romero Bravo",
     "formacion": "Doctor en ecología evolutiva de plantas (Sussex)",
@@ -116,5 +95,26 @@
     ],
     "enlace": "",
     "fotoGit": null
+  },
+  {
+    "display_name": "Joshua Borràs",
+    "nombre": "Joshua Borràs",
+    "formacion": "Doctorado en Biología de las Plantas (UIB)",
+    "afiliacion": "Universitat de les Illes Balears",
+    "categoria": "Predoc",
+    "intereses_list": [
+      "Conservación",
+      "Bioinformática",
+      "Cambio Global",
+      "Interacciones Planta-Ecosistema"
+    ],
+    "intereses_key": [
+      "conservacion",
+      "bioinformatica",
+      "cambio global",
+      "interacciones planta-ecosistema"
+    ],
+    "enlace": "https://linktr.ee/JoshuaBorras",
+    "fotoGit": "fotos/id-d393d0f0d6bad90e.png"
   }
 ]
