@@ -116,5 +116,26 @@
     ],
     "enlace": "https://linktr.ee/JoshuaBorras",
     "fotoGit": "fotos/id-d393d0f0d6bad90e.png"
+  },
+  {
+    "display_name": "Giovanni-B. Ferreiro-Lera",
+    "nombre": "Giovanni-B. Ferreiro-Lera",
+    "formacion": "Doctorado en Ecología Funcional y Aplicada (ULE)",
+    "afiliacion": "Universidad de León",
+    "categoria": "Predoc",
+    "intereses_list": [
+      "Bioclimatología",
+      "Corología",
+      "Ecología Vegetal",
+      "Modelización"
+    ],
+    "intereses_key": [
+      "bioclimatologia",
+      "corologia",
+      "ecologia vegetal",
+      "modelizacion"
+    ],
+    "enlace": "https://linktr.ee/gferrle",
+    "fotoGit": "fotos/id-0269de68e16c8443.jpg"
   }
 ]
