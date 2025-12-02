@@ -303,5 +303,24 @@
     ],
     "enlace": "https://www.mncn.csic.es/es/quienes_somos/martinez-dominguez-paula",
     "fotoGit": "fotos/id-8b16cb535ad0f3fe.jpg"
+  },
+  {
+    "display_name": "Wolf Wildpret Martín",
+    "nombre": "Wolf Wildpret Martín",
+    "formacion": "Master en Ecología Vegetal (Uni Freiburg)",
+    "afiliacion": "Universidad de Gotina, Alemania",
+    "categoria": "Predoc",
+    "intereses_list": [
+      "Ecología funcional",
+      "Flora canaria",
+      "Bioclimatología"
+    ],
+    "intereses_key": [
+      "ecologia funcional",
+      "flora canaria",
+      "bioclimatologia"
+    ],
+    "enlace": "https://www.uni-goettingen.de/de/128741.html",
+    "fotoGit": "fotos/id-40633ff6a7e41c93.jpg"
   }
 ]
