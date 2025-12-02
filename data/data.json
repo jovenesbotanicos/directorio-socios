@@ -322,5 +322,26 @@
     ],
     "enlace": "https://www.uni-goettingen.de/de/128741.html",
     "fotoGit": "fotos/id-40633ff6a7e41c93.jpg"
+  },
+  {
+    "display_name": "David G. del Olmo",
+    "nombre": "David G. del Olmo",
+    "formacion": "Master en Biodiversidad y Biología de la Conservación (UPO)",
+    "afiliacion": "Universidad Autónoma de Madrid",
+    "categoria": "Predoc",
+    "intereses_list": [
+      "Evolución y Sistemática",
+      "Ecología",
+      "Paleobotánica",
+      "Brófitos"
+    ],
+    "intereses_key": [
+      "evolucion y sistematica",
+      "ecologia",
+      "paleobotanica",
+      "brofitos"
+    ],
+    "enlace": "https://orcid.org/0009-0002-2116-7371",
+    "fotoGit": "fotos/id-392ee529e693a245.jpg"
   }
 ]
