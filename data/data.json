@@ -137,5 +137,26 @@
     ],
     "enlace": "https://linktr.ee/gferrle",
     "fotoGit": "fotos/id-0269de68e16c8443.jpg"
+  },
+  {
+    "display_name": "Adrián Melón Raña",
+    "nombre": "Adrián Melón Raña",
+    "formacion": "Máster en Biodiversidad Terrestre",
+    "afiliacion": "Universidade de Vigo",
+    "categoria": "Predoc",
+    "intereses_list": [
+      "Micología",
+      "Taxonomía",
+      "Sistemática",
+      "Ecología"
+    ],
+    "intereses_key": [
+      "micologia",
+      "taxonomia",
+      "sistematica",
+      "ecologia"
+    ],
+    "enlace": "https://www.researchgate.net/profile/Adrian-Melon?ev=hdr_xprf",
+    "fotoGit": "fotos/id-642b5a07a5e15b53.jpg"
   }
 ]
