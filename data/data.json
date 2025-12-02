@@ -179,5 +179,26 @@
     ],
     "enlace": "https://www.researchgate.net/profile/Cazas_Nerea?ev=hdr_xprf",
     "fotoGit": "fotos/id-f44279d86adbd296.png"
+  },
+  {
+    "display_name": "Sonia Molino de Miguel",
+    "nombre": "Sonia Molino de Miguel",
+    "formacion": "Doctora en biología (UCM)",
+    "afiliacion": "Instituto de Investigación en Cambio Global-URJC",
+    "categoria": "Postdoc",
+    "intereses_list": [
+      "Sistemática",
+      "Taxonomía",
+      "Pteridología",
+      "Biogeografía"
+    ],
+    "intereses_key": [
+      "sistematica",
+      "taxonomia",
+      "pteridologia",
+      "biogeografia"
+    ],
+    "enlace": "www.soniamolino.com",
+    "fotoGit": "fotos/id-7a4ae11293fbfde2.jpg"
   }
 ]
