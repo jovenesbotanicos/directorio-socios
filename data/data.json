@@ -221,5 +221,45 @@
     ],
     "enlace": "https://www.linkedin.com/in/adrian-garciarodriguez/",
     "fotoGit": "fotos/id-65c854ca9b13f524.jpg"
+  },
+  {
+    "display_name": "Ruymán David Cedrés Perdomo",
+    "nombre": "Ruymán David Cedrés Perdomo",
+    "formacion": "Doctor en Biodiversidad y Conservación (ULL)",
+    "afiliacion": "Universidad de La Laguna",
+    "categoria": "Postdoc",
+    "intereses_list": [
+      "Ecología vegetal",
+      "Taxonomía",
+      "Conservación",
+      "Briología"
+    ],
+    "intereses_key": [
+      "ecologia vegetal",
+      "taxonomia",
+      "conservacion",
+      "briologia"
+    ],
+    "enlace": "https://www.researchgate.net/profile/Ruyman-Cedres-Perdomo",
+    "fotoGit": "fotos/id-04d723ae39aa0f73.jpg"
+  },
+  {
+    "display_name": "Sergio Rodríguez Fernández",
+    "nombre": "Sergio Rodríguez Fernández",
+    "formacion": "- Grado en Biología (ULE)",
+    "afiliacion": "- Universidad de León",
+    "categoria": "Técnico/a",
+    "intereses_list": [
+      "Educación",
+      "Divulgación",
+      "Arte"
+    ],
+    "intereses_key": [
+      "educacion",
+      "divulgacion",
+      "arte"
+    ],
+    "enlace": "https://drive.google.com/file/d/1VA_t4qL5PjERhpRxjjzvL82vHP4xUcOg/view?usp=drivesdk",
+    "fotoGit": null
   }
 ]
