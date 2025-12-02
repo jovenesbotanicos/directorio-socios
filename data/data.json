@@ -200,5 +200,26 @@
     ],
     "enlace": "www.soniamolino.com",
     "fotoGit": "fotos/id-7a4ae11293fbfde2.jpg"
+  },
+  {
+    "display_name": "Adrián García Rodríguez",
+    "nombre": "Adrián García Rodríguez",
+    "formacion": "Máster en Técnicas de Conservación de la Biodiversidad y Ecología (URJC)",
+    "afiliacion": "Tragsatec",
+    "categoria": "Profesional",
+    "intereses_list": [
+      "Biología de la Conservación",
+      "Invasiones Biológicas",
+      "Geobotánica",
+      "Coníferas"
+    ],
+    "intereses_key": [
+      "biologia de la conservacion",
+      "invasiones biologicas",
+      "geobotanica",
+      "coniferas"
+    ],
+    "enlace": "https://www.linkedin.com/in/adrian-garciarodriguez/",
+    "fotoGit": "fotos/id-65c854ca9b13f524.jpg"
   }
 ]
