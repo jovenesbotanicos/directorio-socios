@@ -261,5 +261,26 @@
     ],
     "enlace": "https://drive.google.com/file/d/1VA_t4qL5PjERhpRxjjzvL82vHP4xUcOg/view?usp=drivesdk",
     "fotoGit": null
+  },
+  {
+    "display_name": "Louis S. Jay-García",
+    "nombre": "Louis S. Jay-García",
+    "formacion": "Máster en Biodiversidad Terrestre y Conservación en Islas (ULL)",
+    "afiliacion": "Universidad de La Laguna",
+    "categoria": "Predoc",
+    "intereses_list": [
+      "Especies Invasoras",
+      "Biogeografía",
+      "Evolución",
+      "Ecología"
+    ],
+    "intereses_key": [
+      "especies invasoras",
+      "biogeografia",
+      "evolucion",
+      "ecologia"
+    ],
+    "enlace": "https://scholar.google.com/citations?user=7phC2RkAAAAJ&hl=es",
+    "fotoGit": null
   }
 ]
