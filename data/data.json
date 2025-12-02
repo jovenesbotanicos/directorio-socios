@@ -282,5 +282,26 @@
     ],
     "enlace": "https://scholar.google.com/citations?user=7phC2RkAAAAJ&hl=es",
     "fotoGit": null
+  },
+  {
+    "display_name": "Paula Martínez Domínguez",
+    "nombre": "Paula Martínez Domínguez",
+    "formacion": "Máster en Restauración de Ecosistemas (UAM)",
+    "afiliacion": "Museo Nacional de Ciencias Naturales",
+    "categoria": "Técnico/a",
+    "intereses_list": [
+      "Ecología",
+      "Distribución",
+      "Biogeografía",
+      "Taxonomía"
+    ],
+    "intereses_key": [
+      "ecologia",
+      "distribucion",
+      "biogeografia",
+      "taxonomia"
+    ],
+    "enlace": "https://www.mncn.csic.es/es/quienes_somos/martinez-dominguez-paula",
+    "fotoGit": "fotos/id-8b16cb535ad0f3fe.jpg"
   }
 ]
