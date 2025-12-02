@@ -343,5 +343,26 @@
     ],
     "enlace": "https://orcid.org/0009-0002-2116-7371",
     "fotoGit": "fotos/id-392ee529e693a245.jpg"
+  },
+  {
+    "display_name": "Daniel Fernández-Costas",
+    "nombre": "Daniel Fernández-Costas",
+    "formacion": "Máster en  Biodiversidad en Áreas Tropicales y su Conservación (UIMP-CSIC)",
+    "afiliacion": "Real Jardín Botánico - CSIC",
+    "categoria": "Graduado/a",
+    "intereses_list": [
+      "Sistemática",
+      "Taxonomía",
+      "Hongos liquenizados",
+      "Delimitación de especies"
+    ],
+    "intereses_key": [
+      "sistematica",
+      "taxonomia",
+      "hongos liquenizados",
+      "delimitacion de especies"
+    ],
+    "enlace": "https://www.researchgate.net/profile/Daniel-Fernandez-Costas-3?ev=hdr_xprf",
+    "fotoGit": null
   }
 ]
