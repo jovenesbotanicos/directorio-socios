@@ -442,5 +442,26 @@
     ],
     "enlace": "https://www.researchgate.net/profile/Vega-Martin-Broncano-2",
     "fotoGit": "fotos/id-edee9116cacd581e.png"
+  },
+  {
+    "display_name": "Víctor MR",
+    "nombre": "Víctor MR",
+    "formacion": "",
+    "afiliacion": "",
+    "categoria": "Estudiante",
+    "intereses_list": [
+      "Arboricultura",
+      "Diseño",
+      "Etnobotánica",
+      "Ecología"
+    ],
+    "intereses_key": [
+      "arboricultura",
+      "diseno",
+      "etnobotanica",
+      "ecologia"
+    ],
+    "enlace": "",
+    "fotoGit": null
   }
 ]
