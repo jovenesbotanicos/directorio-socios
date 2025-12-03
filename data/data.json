@@ -400,5 +400,26 @@
     ],
     "enlace": "",
     "fotoGit": "fotos/id-06df49e0b1a8d119.jpg"
+  },
+  {
+    "display_name": "Marc Riera",
+    "nombre": "Marc Riera",
+    "formacion": "Doctor en Ecología Terrestre (CREAF-UAB)",
+    "afiliacion": "CREAF (Centre de Recerca Ecològica i Aplicacions Forestals)",
+    "categoria": "Postdoc",
+    "intereses_list": [
+      "Invasiones biológicas",
+      "Briología",
+      "Pteridología",
+      "Nicho ecológico"
+    ],
+    "intereses_key": [
+      "invasiones biologicas",
+      "briologia",
+      "pteridologia",
+      "nicho ecologico"
+    ],
+    "enlace": "https://orcid.org/0000-0002-3860-6046",
+    "fotoGit": null
   }
 ]
