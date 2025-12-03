@@ -484,5 +484,26 @@
     ],
     "enlace": "www.linkedin.com/in/raúl-carrasco-echeverría-8a3882277",
     "fotoGit": "fotos/id-3c4dcbb373cd0907.jpg"
+  },
+  {
+    "display_name": "María Barco Antoñanzas",
+    "nombre": "María Barco Antoñanzas",
+    "formacion": "Doctor en Agrobiología Ambiental",
+    "afiliacion": "Jardín Botánico de La Rioja",
+    "categoria": "Postdoc",
+    "intereses_list": [
+      "Flora espontánea",
+      "Malherbología",
+      "Silvestres",
+      "Adventicias"
+    ],
+    "intereses_key": [
+      "flora espontanea",
+      "malherbologia",
+      "silvestres",
+      "adventicias"
+    ],
+    "enlace": "https://www.instagram.com/_plantarvm_/",
+    "fotoGit": null
   }
 ]
