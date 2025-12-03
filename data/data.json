@@ -463,5 +463,26 @@
     ],
     "enlace": "",
     "fotoGit": null
+  },
+  {
+    "display_name": "Raúl Carrasco Echeverría",
+    "nombre": "Raúl Carrasco Echeverría",
+    "formacion": "Máster en Agrobiología Ambiental (UPNA)",
+    "afiliacion": "Universidad Pública de Navarra",
+    "categoria": "Graduado/a",
+    "intereses_list": [
+      "Biotecnología",
+      "Sistemática",
+      "Fisiología vegetal",
+      "Ecología"
+    ],
+    "intereses_key": [
+      "biotecnologia",
+      "sistematica",
+      "fisiologia vegetal",
+      "ecologia"
+    ],
+    "enlace": "www.linkedin.com/in/raúl-carrasco-echeverría-8a3882277",
+    "fotoGit": "fotos/id-3c4dcbb373cd0907.jpg"
   }
 ]
