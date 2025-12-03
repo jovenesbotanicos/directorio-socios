@@ -421,5 +421,26 @@
     ],
     "enlace": "https://orcid.org/0000-0002-3860-6046",
     "fotoGit": "fotos/id-fe5e39a828bfca63.jpg"
+  },
+  {
+    "display_name": "Vega Martin Broncano",
+    "nombre": "Vega Martin Broncano",
+    "formacion": "Máster en Bioloxía Mariña (UDC)",
+    "afiliacion": "Universidade de Santiago de Compostela ",
+    "categoria": "Predoc",
+    "intereses_list": [
+      "Ficología",
+      "Taxonomía",
+      "Especies invasoras",
+      "eDNA"
+    ],
+    "intereses_key": [
+      "ficologia",
+      "taxonomia",
+      "especies invasoras",
+      "edna"
+    ],
+    "enlace": "https://www.researchgate.net/profile/Vega-Martin-Broncano-2",
+    "fotoGit": "fotos/id-edee9116cacd581e.png"
   }
 ]
