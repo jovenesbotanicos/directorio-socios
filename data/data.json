@@ -381,5 +381,24 @@
     ],
     "enlace": "https://www.linkedin.com/in/miguel-moreno-acevedo-b8a53a1b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     "fotoGit": null
+  },
+  {
+    "display_name": "Ana Paula Melero Castellot",
+    "nombre": "Ana Paula Melero Castellot",
+    "formacion": "Grado en Biología (ULE)",
+    "afiliacion": "Herbario LEB - Universidad de León ",
+    "categoria": "Graduado/a",
+    "intereses_list": [
+      "Herbario",
+      "Fanerógamas",
+      "Etnobiología"
+    ],
+    "intereses_key": [
+      "herbario",
+      "fanerogamas",
+      "etnobiologia"
+    ],
+    "enlace": "",
+    "fotoGit": null
   }
 ]
