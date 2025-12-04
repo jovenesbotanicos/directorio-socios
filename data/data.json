@@ -591,5 +591,26 @@
     ],
     "enlace": "",
     "fotoGit": "fotos/id-5a1baa2010af8e8c.jpg"
+  },
+  {
+    "display_name": "Pablo Rodeiro",
+    "nombre": "Pablo Rodeiro",
+    "formacion": "Master Biodiversidade Terrestre: Caracterización,Conservación e Xestión",
+    "afiliacion": "Universidade de Santiago de Compostela",
+    "categoria": "Predoc",
+    "intereses_list": [
+      "Biogeografía",
+      "Pteridología",
+      "Taxonomía",
+      "Genómica"
+    ],
+    "intereses_key": [
+      "biogeografia",
+      "pteridologia",
+      "taxonomia",
+      "genomica"
+    ],
+    "enlace": "",
+    "fotoGit": null
   }
 ]
