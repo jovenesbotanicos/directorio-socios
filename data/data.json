@@ -368,12 +368,20 @@
   {
     "display_name": "Miguel Moreno Acevedo",
     "nombre": "Miguel Moreno Acevedo",
-    "formacion": "",
-    "afiliacion": "",
-    "categoria": "",
-    "intereses_list": [],
-    "intereses_key": [],
-    "enlace": "",
+    "formacion": "Máster en Biodiversidad: Conservación y Evolución.",
+    "afiliacion": "GEACAM",
+    "categoria": "Profesional",
+    "intereses_list": [
+      "Geobotánica",
+      "Taxonomía",
+      "Fitosociología"
+    ],
+    "intereses_key": [
+      "geobotanica",
+      "taxonomia",
+      "fitosociologia"
+    ],
+    "enlace": "https://www.linkedin.com/in/miguel-moreno-acevedo-b8a53a1b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     "fotoGit": null
   },
   {
