@@ -368,18 +368,12 @@
   {
     "display_name": "Miguel Moreno Acevedo",
     "nombre": "Miguel Moreno Acevedo",
-    "formacion": "Máster Biodiversidad (UV)",
-    "afiliacion": "GEACAM",
-    "categoria": "Técnico/a",
-    "intereses_list": [
-      "Biogeografía",
-      "Fitosociología"
-    ],
-    "intereses_key": [
-      "biogeografia",
-      "fitosociologia"
-    ],
-    "enlace": "https://www.linkedin.com/in/miguel-moreno-acevedo-b8a53a1b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "formacion": "",
+    "afiliacion": "",
+    "categoria": "",
+    "intereses_list": [],
+    "intereses_key": [],
+    "enlace": "",
     "fotoGit": null
   },
   {
