@@ -374,15 +374,15 @@
     "intereses_list": [
       "Geobotánica",
       "Taxonomía",
-      "Fitosociología"
+      "Conservación"
     ],
     "intereses_key": [
       "geobotanica",
       "taxonomia",
-      "fitosociologia"
+      "conservacion"
     ],
     "enlace": "https://www.linkedin.com/in/miguel-moreno-acevedo-b8a53a1b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    "fotoGit": null
+    "fotoGit": "fotos/id-172176fc2d7a3d8e.jpg"
   },
   {
     "display_name": "Ana Paula Melero Castellot",
@@ -611,6 +611,6 @@
       "genomica"
     ],
     "enlace": "",
-    "fotoGit": null
+    "fotoGit": "fotos/id-bfba411fccb52b26.jpg"
   }
 ]
