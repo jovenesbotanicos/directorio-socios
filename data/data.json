@@ -612,5 +612,26 @@
     ],
     "enlace": "",
     "fotoGit": "fotos/id-bfba411fccb52b26.jpg"
+  },
+  {
+    "display_name": "Carlos J. Almeida Valido",
+    "nombre": "Carlos J. Almeida Valido",
+    "formacion": "Máster en Estudios Avanzados en Botánica (UCM)",
+    "afiliacion": "UCM/CRF-CSIC",
+    "categoria": "Graduado/a",
+    "intereses_list": [
+      "Ecología",
+      "Polinización",
+      "Herbivoría",
+      "Interacción biótica"
+    ],
+    "intereses_key": [
+      "ecologia",
+      "polinizacion",
+      "herbivoria",
+      "interaccion biotica"
+    ],
+    "enlace": "Instagram.com/carlosjav37/",
+    "fotoGit": null
   }
 ]
