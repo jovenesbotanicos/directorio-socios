@@ -633,5 +633,24 @@
     ],
     "enlace": "https://drive.google.com/file/d/1lvXlBNbLyo_mNt1ofPPgKTvXxFtKn9It/view?usp=drivesdk",
     "fotoGit": "fotos/id-9629455414a69226.jpg"
+  },
+  {
+    "display_name": "Juan Carlos Zamora Señoret",
+    "nombre": "Juan Carlos Zamora Señoret",
+    "formacion": "Doctor en Farmacia (UCM y AH)",
+    "afiliacion": "Conservatoire et Jardin botaniques de Genève",
+    "categoria": "Postdoc",
+    "intereses_list": [
+      "Sistemática",
+      "Nomenclatura",
+      "Micología"
+    ],
+    "intereses_key": [
+      "sistematica",
+      "nomenclatura",
+      "micologia"
+    ],
+    "enlace": "",
+    "fotoGit": null
   }
 ]
