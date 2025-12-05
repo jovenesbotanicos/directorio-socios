@@ -652,5 +652,26 @@
     ],
     "enlace": "",
     "fotoGit": null
+  },
+  {
+    "display_name": "José Ignacio Márquez Corro",
+    "nombre": "José Ignacio Márquez Corro",
+    "formacion": "Doctor en Medio Ambiente y Sociedad (UPO)",
+    "afiliacion": "Universidad Pablo de Olavide",
+    "categoria": "Postdoc",
+    "intereses_list": [
+      "Cyperaceae",
+      "Evolución",
+      "Sistemática",
+      "Taxonomía"
+    ],
+    "intereses_key": [
+      "cyperaceae",
+      "evolucion",
+      "sistematica",
+      "taxonomia"
+    ],
+    "enlace": "https://jimarcor.github.io/",
+    "fotoGit": "fotos/id-3183fedee410c84b.jpg"
   }
 ]
