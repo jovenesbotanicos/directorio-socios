@@ -392,13 +392,15 @@
     "categoria": "Graduado/a",
     "intereses_list": [
       "Herbario",
-      "Fanerógamas",
-      "Etnobiología"
+      "Etnobiología",
+      "Biología de la conservación",
+      "Fotografía"
     ],
     "intereses_key": [
       "herbario",
-      "fanerogamas",
-      "etnobiologia"
+      "etnobiologia",
+      "biologia de la conservacion",
+      "fotografia"
     ],
     "enlace": "https://www.researchgate.net/profile/Ana-Melero-Castellot/research",
     "fotoGit": "fotos/id-06df49e0b1a8d119.jpg"
