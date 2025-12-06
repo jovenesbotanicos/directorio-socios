@@ -696,5 +696,26 @@
     ],
     "enlace": "https://www.instagram.com/yumavik_/",
     "fotoGit": null
+  },
+  {
+    "display_name": "Mauro Rivas-Ferreiro",
+    "nombre": "Mauro Rivas-Ferreiro",
+    "formacion": "Máster en Taxonomía y Diversidad de Plantas y Hongos (RBG Kew)",
+    "afiliacion": "Universidade de Vigo",
+    "categoria": "Predoc",
+    "intereses_list": [
+      "Micología",
+      "Sistemática",
+      "Nomenclatura",
+      "Ectomicorrizas"
+    ],
+    "intereses_key": [
+      "micologia",
+      "sistematica",
+      "nomenclatura",
+      "ectomicorrizas"
+    ],
+    "enlace": "https://www.researchgate.net/profile/Mauro-Rivas-Ferreiro",
+    "fotoGit": "fotos/id-23c66ba4a41b8140.png"
   }
 ]
