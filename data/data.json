@@ -673,5 +673,26 @@
     ],
     "enlace": "https://jimarcor.github.io/",
     "fotoGit": "fotos/id-3183fedee410c84b.jpg"
+  },
+  {
+    "display_name": "Jaime Pérez-Roldán Alpuente",
+    "nombre": "Jaime Pérez-Roldán Alpuente",
+    "formacion": "Grado en Biología (UCM)",
+    "afiliacion": "",
+    "categoria": "Estudiante",
+    "intereses_list": [
+      "Biogeografía",
+      "Fotografía",
+      "Evolución",
+      "Demografía"
+    ],
+    "intereses_key": [
+      "biogeografia",
+      "fotografia",
+      "evolucion",
+      "demografia"
+    ],
+    "enlace": "https://www.instagram.com/yumavik_/",
+    "fotoGit": null
   }
 ]
