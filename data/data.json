@@ -717,5 +717,26 @@
     ],
     "enlace": "https://www.researchgate.net/profile/Mauro-Rivas-Ferreiro",
     "fotoGit": "fotos/id-23c66ba4a41b8140.png"
+  },
+  {
+    "display_name": "Adolfo Calvo Redondo",
+    "nombre": "Adolfo Calvo Redondo",
+    "formacion": "Máster en Estudios Amerindios (UNED)",
+    "afiliacion": "Université Sorbonne Nouvelle ",
+    "categoria": "Predoc",
+    "intereses_list": [
+      "Etnobotánica",
+      "Plantas medicinales",
+      "Conservación Biocultural",
+      "Extensión universitaria"
+    ],
+    "intereses_key": [
+      "etnobotanica",
+      "plantas medicinales",
+      "conservacion biocultural",
+      "extension universitaria"
+    ],
+    "enlace": "https://cv.hal.science/adolfo-calvo-redondo",
+    "fotoGit": "fotos/id-4376650aa06308ea.jpg"
   }
 ]
