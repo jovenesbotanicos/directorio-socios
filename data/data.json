@@ -738,5 +738,22 @@
     ],
     "enlace": "https://cv.hal.science/adolfo-calvo-redondo",
     "fotoGit": "fotos/id-4376650aa06308ea.jpg"
+  },
+  {
+    "display_name": "Abel Serrano Juste",
+    "nombre": "Abel Serrano Juste",
+    "formacion": "Máster en Ciencia de Datos",
+    "afiliacion": "Museu de Ciències Naturals de Granollers",
+    "categoria": "Aficionado/a",
+    "intereses_list": [
+      "Etnobotánica",
+      "Ciencia Ciudadana"
+    ],
+    "intereses_key": [
+      "etnobotanica",
+      "ciencia ciudadana"
+    ],
+    "enlace": "https://abeserra.me/",
+    "fotoGit": "fotos/id-68e33701f279eb77.jpg"
   }
 ]
