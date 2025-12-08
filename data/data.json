@@ -776,5 +776,24 @@
     ],
     "enlace": "",
     "fotoGit": null
+  },
+  {
+    "display_name": "Carlos Eced",
+    "nombre": "Carlos Eced",
+    "formacion": "Master en Conservación de Biodiversidad (UGR)",
+    "afiliacion": "Universidad de Granada",
+    "categoria": "Predoc",
+    "intereses_list": [
+      "Conservación",
+      "Ecología Vegetal",
+      "Tolerancia al Estrés"
+    ],
+    "intereses_key": [
+      "conservacion",
+      "ecologia vegetal",
+      "tolerancia al estres"
+    ],
+    "enlace": "",
+    "fotoGit": null
   }
 ]
