@@ -755,5 +755,26 @@
     ],
     "enlace": "https://abeserra.me/",
     "fotoGit": "fotos/id-68e33701f279eb77.jpg"
+  },
+  {
+    "display_name": "Lucía Alonso Villar",
+    "nombre": "Lucía Alonso Villar",
+    "formacion": "Ingeniera Forestal y Agrícola (UVa), Máster en Biotecnología (UCO)",
+    "afiliacion": "Universidad de Valladolid",
+    "categoria": "Técnico/a",
+    "intereses_list": [
+      "Fitopatología",
+      "Microbioma vegetal",
+      "Ecología vegetal",
+      "Micología"
+    ],
+    "intereses_key": [
+      "fitopatologia",
+      "microbioma vegetal",
+      "ecologia vegetal",
+      "micologia"
+    ],
+    "enlace": "",
+    "fotoGit": null
   }
 ]
