@@ -814,5 +814,26 @@
     ],
     "enlace": "",
     "fotoGit": null
+  },
+  {
+    "display_name": "Celia González-López",
+    "nombre": "Celia González-López",
+    "formacion": "Doctorando en Biología Integrada (US)",
+    "afiliacion": "Estación Biológica de Doñana (EBD-CSIC)",
+    "categoria": "Predoc",
+    "intereses_list": [
+      "Biogeografía",
+      "Macroecología",
+      "Pastizales y Herbivoría",
+      "Ecología Computacional"
+    ],
+    "intereses_key": [
+      "biogeografia",
+      "macroecologia",
+      "pastizales y herbivoria",
+      "ecologia computacional"
+    ],
+    "enlace": "https://bsky.app/profile/celiagonzl.bsky.social",
+    "fotoGit": "fotos/id-77e1086ba4b82c4b.jpg"
   }
 ]
