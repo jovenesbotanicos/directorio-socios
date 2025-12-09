@@ -795,5 +795,24 @@
     ],
     "enlace": "",
     "fotoGit": "fotos/id-bf6f93989e92e9d2.jpg"
+  },
+  {
+    "display_name": "Rosario Rebolé",
+    "nombre": "Rosario Rebolé",
+    "formacion": "Máster en Restauración de Ecosistemas (UAH, UPM y URJC)",
+    "afiliacion": "Tragsatec",
+    "categoria": "Profesional",
+    "intereses_list": [
+      "Nomenclatura",
+      "Vegetación",
+      "Ecología"
+    ],
+    "intereses_key": [
+      "nomenclatura",
+      "vegetacion",
+      "ecologia"
+    ],
+    "enlace": "",
+    "fotoGit": null
   }
 ]
