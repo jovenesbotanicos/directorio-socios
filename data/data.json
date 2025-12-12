@@ -835,5 +835,26 @@
     ],
     "enlace": "https://bsky.app/profile/celiagonzl.bsky.social",
     "fotoGit": "fotos/id-77e1086ba4b82c4b.jpg"
+  },
+  {
+    "display_name": "Inés Herrero",
+    "nombre": "Inés Herrero",
+    "formacion": "Máster en Técnicas de Conservación de la Biodiversidad y Ecología (URJC)",
+    "afiliacion": "Centro de Biotecnología y Genómica de Plantas",
+    "categoria": "Graduado/a",
+    "intereses_list": [
+      "Ecología funcional",
+      "Genética",
+      "Interacciones entre especies",
+      "Conservación"
+    ],
+    "intereses_key": [
+      "ecologia funcional",
+      "genetica",
+      "interacciones entre especies",
+      "conservacion"
+    ],
+    "enlace": "www.linkedin.com/in/inés-herrero-hernández",
+    "fotoGit": null
   }
 ]
