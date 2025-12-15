@@ -856,5 +856,22 @@
     ],
     "enlace": "www.linkedin.com/in/inés-herrero-hernández",
     "fotoGit": "fotos/id-6993e4ebcc00f4e2.png"
+  },
+  {
+    "display_name": "Pablo Aguado-Ramsay",
+    "nombre": "Pablo Aguado-Ramsay",
+    "formacion": "Máster en Biodiversidad y Conservación (UPO)",
+    "afiliacion": "Universidad Autónoma de Madrid",
+    "categoria": "Predoc",
+    "intereses_list": [
+      "Briología",
+      "Sistemática"
+    ],
+    "intereses_key": [
+      "briologia",
+      "sistematica"
+    ],
+    "enlace": "https://www.orthotree.net/",
+    "fotoGit": null
   }
 ]
