@@ -873,5 +873,26 @@
     ],
     "enlace": "https://www.orthotree.net/",
     "fotoGit": "fotos/id-359a92be7258e980.jpg"
+  },
+  {
+    "display_name": "Jesús José Garcia-Ubero P.",
+    "nombre": "Jesús José Garcia-Ubero P.",
+    "formacion": "Grado en Ciencias Ambientales (UCLM)",
+    "afiliacion": "",
+    "categoria": "Estudiante",
+    "intereses_list": [
+      "Restauración de hábitats",
+      "Biogeografía",
+      "Ecología del paisaje",
+      "Ecología vegetal"
+    ],
+    "intereses_key": [
+      "restauracion de habitats",
+      "biogeografia",
+      "ecologia del paisaje",
+      "ecologia vegetal"
+    ],
+    "enlace": "",
+    "fotoGit": null
   }
 ]
