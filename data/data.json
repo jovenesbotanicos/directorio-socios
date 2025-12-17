@@ -894,5 +894,26 @@
     ],
     "enlace": "",
     "fotoGit": null
+  },
+  {
+    "display_name": "Jonatan Rodríguez",
+    "nombre": "Jonatan Rodríguez",
+    "formacion": "Doctorado en Ecosistemas Terrestres (UVigo)",
+    "afiliacion": "Universidade de Santiago de Compostela",
+    "categoria": "Postdoc",
+    "intereses_list": [
+      "Plantas invasoras",
+      "Ecología vegetal",
+      "Interacciones planta-herbívoro",
+      "Vegetación"
+    ],
+    "intereses_key": [
+      "plantas invasoras",
+      "ecologia vegetal",
+      "interacciones planta-herbivoro",
+      "vegetacion"
+    ],
+    "enlace": "https://www.researchgate.net/profile/Jonatan-Rodriguez",
+    "fotoGit": "fotos/id-f75b4cab480e4473.jpg"
   }
 ]
