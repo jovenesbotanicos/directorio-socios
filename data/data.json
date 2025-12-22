@@ -934,5 +934,24 @@
     ],
     "enlace": "https://www.linkedin.com/in/maria-valerio-de-arana/",
     "fotoGit": "fotos/id-3ac1f30b125b59f8.jpg"
+  },
+  {
+    "display_name": "Òscar Castillo Agudo",
+    "nombre": "Òscar Castillo Agudo",
+    "formacion": "Doctorando en Biodiversidad",
+    "afiliacion": "IPNA-CSIC",
+    "categoria": "Predoc",
+    "intereses_list": [
+      "Sistemática",
+      "Taxonomía",
+      "Evolución"
+    ],
+    "intereses_key": [
+      "sistematica",
+      "taxonomia",
+      "evolucion"
+    ],
+    "enlace": "https://www.researchgate.net/profile/Oscar-Castillo-Agudo?ev=hdr_xprf",
+    "fotoGit": null
   }
 ]
