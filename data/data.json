@@ -938,20 +938,22 @@
   {
     "display_name": "Òscar Castillo Agudo",
     "nombre": "Òscar Castillo Agudo",
-    "formacion": "Doctorando en Biodiversidad",
+    "formacion": "Doctorado en Biodiversidad (ULL)",
     "afiliacion": "IPNA-CSIC",
     "categoria": "Predoc",
     "intereses_list": [
       "Sistemática",
       "Taxonomía",
+      "Biogeografía",
       "Evolución"
     ],
     "intereses_key": [
       "sistematica",
       "taxonomia",
+      "biogeografia",
       "evolucion"
     ],
     "enlace": "https://www.researchgate.net/profile/Oscar-Castillo-Agudo?ev=hdr_xprf",
-    "fotoGit": null
+    "fotoGit": "fotos/id-b874b602e43fbb7e.jpg"
   }
 ]
