@@ -955,5 +955,20 @@
     ],
     "enlace": "https://www.researchgate.net/profile/Oscar-Castillo-Agudo?ev=hdr_xprf",
     "fotoGit": "fotos/id-b874b602e43fbb7e.jpg"
+  },
+  {
+    "display_name": "Diego Rodríguez Hernández",
+    "nombre": "Diego Rodríguez Hernández",
+    "formacion": "Máster de Biodiversidad en Áreas Tropicales y su Conservación (UIMP-CSIC)",
+    "afiliacion": "Estación Biológica de Doñana",
+    "categoria": "Graduado/a",
+    "intereses_list": [
+      "Evolución.Sistemática y Taxonomía.Biogeografía.Pal"
+    ],
+    "intereses_key": [
+      "evolucion.sistematica y taxonomia.biogeografia.pal"
+    ],
+    "enlace": "https://orcid.org/0009-0002-7030-5101",
+    "fotoGit": null
   }
 ]
