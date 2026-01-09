@@ -970,5 +970,26 @@
     ],
     "enlace": "https://orcid.org/0009-0002-7030-5101",
     "fotoGit": "fotos/id-82acf55e9d88a847.jpg"
+  },
+  {
+    "display_name": "Iván Rodríguez Buján",
+    "nombre": "Iván Rodríguez Buján",
+    "formacion": "Máster en Biodiversidad Terrestre: Caracterización, Conservación y Gestión (UDC)",
+    "afiliacion": "Universidade da Coruña",
+    "categoria": "Predoc",
+    "intereses_list": [
+      "Genética poblacional",
+      "Especies amenazadas",
+      "Biogeografía",
+      "Pteridología"
+    ],
+    "intereses_key": [
+      "genetica poblacional",
+      "especies amenazadas",
+      "biogeografia",
+      "pteridologia"
+    ],
+    "enlace": "https://www.researchgate.net/profile/Ivan-Rodriguez-Bujan",
+    "fotoGit": "fotos/id-e17b408e2f836906.jpg"
   }
 ]
