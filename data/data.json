@@ -991,5 +991,24 @@
     ],
     "enlace": "https://www.researchgate.net/profile/Ivan-Rodriguez-Bujan",
     "fotoGit": "fotos/id-e17b408e2f836906.jpg"
+  },
+  {
+    "display_name": "Adrián Lázaro Lobo",
+    "nombre": "Adrián Lázaro Lobo",
+    "formacion": "Doctor en Biología (MSU)",
+    "afiliacion": "Universidad de Oviedo",
+    "categoria": "Profesor/a universitario/a",
+    "intereses_list": [
+      "Ecología vegetal",
+      "Evolución",
+      "Plantas invasoras"
+    ],
+    "intereses_key": [
+      "ecologia vegetal",
+      "evolucion",
+      "plantas invasoras"
+    ],
+    "enlace": "https://www.researchgate.net/profile/Adrian-Lazaro-Lobo",
+    "fotoGit": "fotos/id-13d8d219ffb00543.jpg"
   }
 ]
