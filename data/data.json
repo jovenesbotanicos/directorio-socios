@@ -1010,5 +1010,26 @@
     ],
     "enlace": "https://www.researchgate.net/profile/Adrian-Lazaro-Lobo",
     "fotoGit": "fotos/id-13d8d219ffb00543.jpg"
+  },
+  {
+    "display_name": "Miriam García Torija",
+    "nombre": "Miriam García Torija",
+    "formacion": "Máster en Restauración de Ecosistemas (UAM)",
+    "afiliacion": "Universidad Complutense de Madrid",
+    "categoria": "Predoc",
+    "intereses_list": [
+      "Ecología vegetal",
+      "Restauración",
+      "Vegetación ruderal",
+      "Comunidades"
+    ],
+    "intereses_key": [
+      "ecologia vegetal",
+      "restauracion",
+      "vegetacion ruderal",
+      "comunidades"
+    ],
+    "enlace": "https://www.researchgate.net/profile/Miriam-Torija?ev=hdr_xprf",
+    "fotoGit": null
   }
 ]
