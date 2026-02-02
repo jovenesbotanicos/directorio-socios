@@ -1031,5 +1031,24 @@
     ],
     "enlace": "https://www.researchgate.net/profile/Miriam-Torija?ev=hdr_xprf",
     "fotoGit": "fotos/id-447a486938ab420c.jpg"
+  },
+  {
+    "display_name": "Francisco Tomás-Riera",
+    "nombre": "Francisco Tomás-Riera",
+    "formacion": "Máster en Conservación de la biodiversidad y restauración del medio marítimo y terrestre (UA)",
+    "afiliacion": "Universidad de Córdoba",
+    "categoria": "Predoc",
+    "intereses_list": [
+      "Eco-fisiología vegetal",
+      "Restauración",
+      "Ecología urbana"
+    ],
+    "intereses_key": [
+      "eco-fisiologia vegetal",
+      "restauracion",
+      "ecologia urbana"
+    ],
+    "enlace": "https://orcid.org/0009-0008-9116-3812",
+    "fotoGit": "fotos/id-b5fb9a4a310731b4.png"
   }
 ]
