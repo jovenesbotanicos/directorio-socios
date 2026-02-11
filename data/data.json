@@ -1050,5 +1050,26 @@
     ],
     "enlace": "https://orcid.org/0009-0008-9116-3812",
     "fotoGit": "fotos/id-b5fb9a4a310731b4.png"
+  },
+  {
+    "display_name": "Sandra Navas",
+    "nombre": "Sandra Navas",
+    "formacion": "Máster en Biología de la Conservación",
+    "afiliacion": "Universidad Complutense de Madrid",
+    "categoria": "Predoc",
+    "intereses_list": [
+      "Conservación",
+      "Ecología vegetal",
+      "Comunidades vegetales",
+      "Gestión forestal"
+    ],
+    "intereses_key": [
+      "conservacion",
+      "ecologia vegetal",
+      "comunidades vegetales",
+      "gestion forestal"
+    ],
+    "enlace": "https://www.researchgate.net/profile/Sandra-Navas-3?ev=hdr_xprf",
+    "fotoGit": "fotos/id-a55d2b22eeb99b8e.jpg"
   }
 ]
