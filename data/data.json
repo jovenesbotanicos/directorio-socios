@@ -1071,5 +1071,26 @@
     ],
     "enlace": "https://www.researchgate.net/profile/Sandra-Navas-3?ev=hdr_xprf",
     "fotoGit": "fotos/id-a55d2b22eeb99b8e.jpg"
+  },
+  {
+    "display_name": "Ángel R. Arenas",
+    "nombre": "Ángel R. Arenas",
+    "formacion": "Grado en Biología (UA)",
+    "afiliacion": "",
+    "categoria": "Graduado/a",
+    "intereses_list": [
+      "Taxonomía",
+      "Sistemática",
+      "Ecología",
+      "Ficología"
+    ],
+    "intereses_key": [
+      "taxonomia",
+      "sistematica",
+      "ecologia",
+      "ficologia"
+    ],
+    "enlace": "",
+    "fotoGit": null
   }
 ]
