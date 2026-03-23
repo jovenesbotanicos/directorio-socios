@@ -680,22 +680,22 @@
     "display_name": "Jaime Pérez-Roldán Alpuente",
     "nombre": "Jaime Pérez-Roldán Alpuente",
     "formacion": "Grado en Biología (UCM)",
-    "afiliacion": "",
-    "categoria": "Estudiante",
+    "afiliacion": "Universidad Complutense de Madrid",
+    "categoria": "Graduado/a",
     "intereses_list": [
       "Biogeografía",
       "Fotografía",
-      "Evolución",
-      "Demografía"
+      "Divulgación",
+      "Evolución"
     ],
     "intereses_key": [
       "biogeografia",
       "fotografia",
-      "evolucion",
-      "demografia"
+      "divulgacion",
+      "evolucion"
     ],
     "enlace": "https://www.instagram.com/yumavik_/",
-    "fotoGit": null
+    "fotoGit": "fotos/id-8169459300b9c396.jpg"
   },
   {
     "display_name": "Mauro Rivas-Ferreiro",
