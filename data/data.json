@@ -83,17 +83,21 @@
     "display_name": "Francisco Gómez Prieto",
     "nombre": "Francisco Gómez Prieto",
     "formacion": "Máster en Ecología (UAM-UCM)",
-    "afiliacion": "",
-    "categoria": "Técnico/a",
+    "afiliacion": "Real Jardín Botánico",
+    "categoria": "Predoc",
     "intereses_list": [
-      "Evolución",
-      "Biogeografía"
+      "Sistemática y evolución",
+      "Ecología",
+      "Biogeografía",
+      "Ciencia ciudadana"
     ],
     "intereses_key": [
-      "evolucion",
-      "biogeografia"
+      "sistematica y evolucion",
+      "ecologia",
+      "biogeografia",
+      "ciencia ciudadana"
     ],
-    "enlace": "",
+    "enlace": "https://www.researchgate.net/profile/Francisco-Gomez-Prieto-2",
     "fotoGit": null
   },
   {
