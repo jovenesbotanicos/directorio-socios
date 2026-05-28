@@ -1096,5 +1096,26 @@
     ],
     "enlace": "",
     "fotoGit": null
+  },
+  {
+    "display_name": "Fernando Vélez Esperilla",
+    "nombre": "Fernando Vélez Esperilla",
+    "formacion": "Candidato a Doctor en Sistemática de Plantas (京大)",
+    "afiliacion": "Kyoto University",
+    "categoria": "Predoc",
+    "intereses_list": [
+      "Malvaceae",
+      "Sistemática",
+      "Evolución",
+      "Biogeografía"
+    ],
+    "intereses_key": [
+      "malvaceae",
+      "sistematica",
+      "evolucion",
+      "biogeografia"
+    ],
+    "enlace": "https://www.researchgate.net/profile/Fernando-Velez-Esperilla?ev=hdr_xprf",
+    "fotoGit": null
   }
 ]
