@@ -1138,5 +1138,22 @@
     ],
     "enlace": "https://www.linkedin.com/in/alberto-ortego-garc%C3%ADa-56469627b/",
     "fotoGit": "fotos/id-2ff6fdec6125af03.jpg"
+  },
+  {
+    "display_name": "Julia Burción",
+    "nombre": "Julia Burción",
+    "formacion": "Máster en Biodiversidad",
+    "afiliacion": "UPM-CEIGRAM",
+    "categoria": "Predoc",
+    "intereses_list": [
+      "Ecología Vegetal",
+      "Agroecología"
+    ],
+    "intereses_key": [
+      "ecologia vegetal",
+      "agroecologia"
+    ],
+    "enlace": "https://drive.google.com/file/d/13U8KVlo3fAerQThQi9DHuFv1v1bx5rQl/view?usp=sharing",
+    "fotoGit": null
   }
 ]
