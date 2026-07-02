@@ -1155,5 +1155,26 @@
     ],
     "enlace": "https://ceigram.upm.es/equipo/burcion-julia/",
     "fotoGit": "fotos/id-4c9e3f602d4a2920.jpg"
+  },
+  {
+    "display_name": "Víctor Morato Fernández",
+    "nombre": "Víctor Morato Fernández",
+    "formacion": "Grado en Biología (UAM), estudiando el Máster de Biodiversidad en Áreas Tropicales y su Conservación (UIMP-CSIC).",
+    "afiliacion": "Real Jardín Botánico de Madrid",
+    "categoria": "Graduado/a",
+    "intereses_list": [
+      "Taxonomía",
+      "Filogenias",
+      "Evolución",
+      "Biogeografía"
+    ],
+    "intereses_key": [
+      "taxonomia",
+      "filogenias",
+      "evolucion",
+      "biogeografia"
+    ],
+    "enlace": "",
+    "fotoGit": "fotos/id-56a400ceeb0a60f6.jpg"
   }
 ]
