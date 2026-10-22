@@ -1176,5 +1176,26 @@
     ],
     "enlace": "",
     "fotoGit": "fotos/id-56a400ceeb0a60f6.jpg"
+  },
+  {
+    "display_name": "Miquel Capó",
+    "nombre": "Miquel Capó",
+    "formacion": "Doctor en Biología de las Plantas (UIB)",
+    "afiliacion": "Universitat de les Illes Balears",
+    "categoria": "Profesor/a universitario/a",
+    "intereses_list": [
+      "Ecología",
+      "Insularidad",
+      "Conservación",
+      "Polinización"
+    ],
+    "intereses_key": [
+      "ecologia",
+      "insularidad",
+      "conservacion",
+      "polinizacion"
+    ],
+    "enlace": "https://drive.google.com/file/d/1eTgpeHr93xeoL-kclqLZM8optF9jGjGl/view?usp=sharing",
+    "fotoGit": null
   }
 ]
