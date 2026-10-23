@@ -1197,5 +1197,24 @@
     ],
     "enlace": "https://drive.google.com/file/d/1eTgpeHr93xeoL-kclqLZM8optF9jGjGl/view?usp=sharing",
     "fotoGit": "fotos/id-ecf7856baf9c4744.png"
+  },
+  {
+    "display_name": "Guillermo García-Saúco Sánchez",
+    "nombre": "Guillermo García-Saúco Sánchez",
+    "formacion": "Máster en comunicación social de la investigación científica (VIU)",
+    "afiliacion": "Jardín Botánico de Castilla-La Mancha",
+    "categoria": "Profesional",
+    "intereses_list": [
+      "Jardines botánicos",
+      "Ecología",
+      "Taxonomía"
+    ],
+    "intereses_key": [
+      "jardines botanicos",
+      "ecologia",
+      "taxonomia"
+    ],
+    "enlace": "https://www.researchgate.net/profile/Guillermo-Garcia-Sauco-Sanchez",
+    "fotoGit": "fotos/id-8b7898d2228c6057.jpg"
   }
 ]
