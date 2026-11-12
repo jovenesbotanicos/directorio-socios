@@ -1216,5 +1216,24 @@
     ],
     "enlace": "https://www.researchgate.net/profile/Guillermo-Garcia-Sauco-Sanchez",
     "fotoGit": "fotos/id-8b7898d2228c6057.jpg"
+  },
+  {
+    "display_name": "David Cossío de Felipe",
+    "nombre": "David Cossío de Felipe",
+    "formacion": "Graduado en Farmacia (UCM)",
+    "afiliacion": "Universidad Complutense de Madrid",
+    "categoria": "Predoc",
+    "intereses_list": [
+      "Etnobotánica",
+      "Plantas medicinales",
+      "Fitoquímica"
+    ],
+    "intereses_key": [
+      "etnobotanica",
+      "plantas medicinales",
+      "fitoquimica"
+    ],
+    "enlace": "",
+    "fotoGit": null
   }
 ]
